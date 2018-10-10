@@ -11,16 +11,11 @@
     ],
     "license": "GPL-2.0-or-later",
     "require": {
-        "typo3/cms-core": "^8.7 || ^9 || dev-master",
+        "typo3/cms-core": ">=8.7",
     },
     "autoload": {
         "psr-4": {
             "Ssa\\Hellocode\\": "Classes"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Ssa\\Hellocode\\Tests\\": "Tests"
         }
     },
     "replace": {
