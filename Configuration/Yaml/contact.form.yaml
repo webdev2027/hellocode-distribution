@@ -1,0 +1,108 @@
+
+renderingOptions:
+  submitButtonLabel: Submit
+type: Form
+identifier: contact
+label: contact
+prototypeName: standard
+finishers:
+  -
+    options:
+      subject: 'ICAROS contact form'
+      recipientAddress: sajok@hellocode.de
+      recipientName: ICAROS
+      senderAddress: no-reply@icaros.com
+      senderName: '{text-1}'
+      replyToAddress: ''
+      carbonCopyAddress: ''
+      blindCarbonCopyAddress: ''
+      format: html
+      attachUploads: true
+      translation:
+        language: ''
+    identifier: EmailToReceiver
+  -
+    options:
+      pageUid: '1'
+      additionalParameters: ''
+    identifier: Redirect
+renderables:
+  -
+    renderingOptions:
+      previousButtonLabel: 'Previous step'
+      nextButtonLabel: 'Neue Seite'
+    type: Page
+    identifier: page-1
+    label: Step
+    renderables:
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-1
+        label: 'Your name'
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: 'Your name'
+            required: required
+          elementDescription: ''
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-2
+        label: Company
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: Company
+          elementDescription: ''
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-3
+        label: E-Mail
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: e-Mail
+            required: required
+        validators:
+          -
+            identifier: NotEmpty
+          -
+            identifier: EmailAddress
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-4
+        label: Phone
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: Phone
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-5
+        label: Country
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: Country
+          elementDescription: ''
+      -
+        defaultValue: ''
+        type: Textarea
+        identifier: textarea-1
+        label: 'Your message:'
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: 'Your message'
+      -
+        type: Checkbox
+        identifier: checkbox-1
+        label: 'I have read and I do accept privacy policy'
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+        validators:
+          -
+            identifier: NotEmpty

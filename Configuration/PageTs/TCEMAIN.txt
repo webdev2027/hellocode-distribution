@@ -1,0 +1,30 @@
+#################
+#### TCEMAIN ####
+#################
+TCEMAIN {
+
+    permissions {
+        groupid = 2
+        user = show, editcontent, edit, new, delete
+        group = show, editcontent, edit, new, delete
+        everybody =
+    }
+
+    table {
+    	pages {
+    		### dont't show "(Kopie 1)", if a content element was copied
+    		disablePrependAtCopy = 1
+
+    		### visibility is on, if a content element was copied
+    		disableHideAtCopy = 1
+    	}
+
+    	tt_content {
+    		### dont't show "(Kopie 1)", if a content element was copied
+    		disablePrependAtCopy = 1
+
+    		### visibility is on, if a content element was copied
+    		disableHideAtCopy = 1
+    	}
+    }
+} ### TCEMAIN

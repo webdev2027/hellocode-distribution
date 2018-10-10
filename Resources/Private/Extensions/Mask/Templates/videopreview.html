@@ -1,0 +1,10 @@
+<div class="imageIcon wow fadeInUp">
+
+    <f:link.typolink parameter="{data.tx_mask_mask_videopreview_videourl}" additionalAttributes="{data-fancybox:'gallery'}">
+        <span class="icon-play"><span class="path1"></span><span class="path2"></span></span>
+    </f:link.typolink>
+    <f:for each="{data.tx_mask_mask_videopreview_image}" as="file">
+        <f:image image="{file}" alt="{file.alternative}" title="{file.title}" class="{f:if(condition: data.tx_mask_mask_videopreview_classname, then: 'w100', else: '')}" />
+    </f:for>
+
+</div><!-- /imageIcon -->

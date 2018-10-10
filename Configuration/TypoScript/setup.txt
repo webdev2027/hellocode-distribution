@@ -1,0 +1,8 @@
+### bug https://codeblog.at/extbase-bug-1205414233-no-suitable-request-handler-found/ and  https://wiki.typo3.org/Exception/CMS/1205414233
+#<INCLUDE_TYPOSCRIPT: source="FILE:typo3/sysext/extbase/ext_typoscript_setup.txt">
+
+### setup / basic_page, config, include, ...
+<INCLUDE_TYPOSCRIPT: source="DIR:./Setup" extensions="ts">
+
+### Libs / main Navigation ..
+<INCLUDE_TYPOSCRIPT: source="DIR:./Library" extensions="ts">

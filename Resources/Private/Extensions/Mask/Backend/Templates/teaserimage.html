@@ -1,0 +1,14 @@
+<f:if condition="{data.tx_mask_mask_teaserimage_header}">
+    <strong><f:format.raw>{data.tx_mask_mask_teaserimage_header}</f:format.raw></strong>
+    <br />
+</f:if>
+
+<f:if condition="{data.tx_mask_mask_teaserimage_subheader}">
+    {data.tx_mask_mask_teaserimage_subheader}<br />
+</f:if>
+
+<f:if condition="{data.tx_mask_mask_teaserimage_backgroundimage}">
+    <f:for each="{data.tx_mask_mask_teaserimage_backgroundimage}" as="file">
+        <f:image image="{file}" alt="{file.alternative}" title="{file.title}" width="200" />
+    </f:for>
+</f:if>

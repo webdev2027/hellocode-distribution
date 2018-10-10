@@ -1,0 +1,186 @@
+### https://www.thomaskieslich.de/blog/127-typo3-8x-ckeditor-konfigurieren/
+### https://www.thomaskieslich.de/blog/135-links-im-ckeditor-mit-eigenen-css-klassen/
+### https://www.clickstorm.de/blog/der-neue-typo3-rte-ckeditor/
+### https://usetypo3.com/ckeditor.html
+
+
+# Load default processing options
+imports:
+    - { resource: "EXT:rte_ckeditor/Configuration/RTE/Processing.yaml" }
+    - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Base.yaml" }
+    - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Plugins.yaml" }
+
+# Add configuration for the editor
+# For complete documentation see http://docs.ckeditor.com/#!/api/CKEDITOR.config
+editor:
+  config:
+    contentsCss: ["EXT:rte_ckeditor/Resources/Public/Css/contents.css", "EXT:icaros/Resources/Public/Css/ckeditor.css"]
+
+    width: '680px'
+    resize_enabled: true
+    resize_dir: 'both'
+    resize_maxWidth: 1000
+    resize_minWidth: 400
+    #uiColor: '#F8F8F8'
+
+    ### Stile
+    stylesSet:
+      # block level styles
+      #- { name: "Absatz blau", element: "p", attributes: { 'class': 'important' } }
+      #- { name: "align-center", element: ['h1', 'h2', 'h3', 'h4','h5', 'h6', 'p', 'td', 'th'], attributes: { 'class': 'align-center' }}
+      #- { name: "align-right", element: ['h1', 'h2', 'h3', 'h4','h5', 'h6', 'p', 'td', 'th'], attributes: { 'class': 'align-right' }}
+      #- { name: "align-justify", element: ['h1', 'h2', 'h3', 'h4','h5', 'h6', 'p', 'td', 'th'], attributes: { 'class': 'align-justify' }}
+      #- { name: "Tiny Paragraph", element: "p", attributes: { 'class': 'p-tiny' }}
+
+      # inline styles
+      #- { name: "Wort(e) blau", element: "span", attributes: { class: "important"} }
+      #- { name: "Schrift grün", element: "span", attributes: { class: "highlighted green"} }
+      #- { name: "Schrift blau", element: "span", attributes: { class: "highlighted blue"} }
+
+      # List styles
+      #- { name: 'UL Style 1', element: 'ul', attributes: { 'class': 'ul-style1' } }
+      #- { name: 'UL Style 2', element: 'ol', attributes: { 'class': 'ul-style2' } }
+      #- { name: 'No UL Bullets', element: 'ul', attributes: { 'class': 'no-bullet' } }
+
+      # Link styles
+      - { name: 'Button Primary Color', element: 'a', attributes: { class: 'button primary' } }
+      - { name: 'Button Warning Color', element: 'a', attributes: { class: 'button warning' } }
+      - { name: 'Button Hollow', element: 'a', attributes: { class: 'button hollow' } }
+
+    ### Absatz
+    #format_tags: "p;h4"
+
+
+    toolbar:
+    #- [ 'Format', 'Styles' ]
+    - [ 'Bold', 'Italic', 'Underline', 'Blockquote', 'Subscript', 'Superscript', 'SpecialChar']
+    - [ 'JustifyLeft', 'JustifyCenter' ]
+    - [ 'NumberedList', 'BulletedList']
+    - "/"
+    - [ 'Undo', 'Redo', 'RemoveFormat', 'ShowBlocks']
+    - [ 'Source', 'Maximize' ]
+    - [ 'Link', 'Unlink' ]
+    - [ 'Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', 'RemoveFormat' ]
+
+
+    toolbarGroups:
+      - { name: styles, groups: [ styles, format ] }
+      - { name: basicstyles, groups: [ basicstyles ] }
+      - { name: paragraph, groups: [ list, indent, blocks, align ] }
+      - { name: links, groups: [ links ] }
+      - { name: clipboard, groups: [ clipboard, cleanup, undo ] }
+      - { name: editing, groups: [ spellchecker ] }
+      - { name: insert, groups: [ insert ] }
+      - { name: tools, groups: [ table, specialchar ] }
+      - { name: document, groups: [ mode ] }
+
+    justifyClasses:
+      - text-left
+      - text-center
+      - text-right
+      - text-justify
+
+    extraPlugins:
+      - justify
+
+    removePlugins:
+      - image
+
+    removeButtons:
+      - Strike
+      - Anchor
+      - Outdent
+      - Indent
+      - JustifyBlock
+
+
+# Button config and defaults
+buttons:
+  link:
+    relAttribute:
+      enabled: false
+    targetSelector:
+      disabled: false
+    properties:
+      class:
+        allowedClasses: 'link-internal,link-internal-blank,link-download,link-folder,link-external,link-external-blank,link-mail,button primary,button warning,button hollow'
+      title:
+        readOnly: false
+    page:
+      properties:
+        class:
+          default: 'link-internal'
+    file:
+      properties:
+        class:
+          default: 'link-download'
+    folder:
+      properties:
+        class:
+          default: 'link-folder'
+    url:
+      properties:
+        class:
+          default: 'link-external-blank'
+    mail:
+      properties:
+        class:
+          default: 'link-mail'
+
+
+# Classes config
+classesAnchor:
+  linkInternal:
+    class: 'link-internal, button primary, button warning, button hollow'
+    type: 'page'
+    titleText: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_internal_titleText'
+  linkInternalBlank:
+    class: 'link-internal-blank, button primary, button warning, button hollow'
+    type: 'page'
+    target: '_blank'
+    titleText: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_internal_blank_titleText'
+  linkDownload:
+    class: 'link-download, button primary, button warning, button hollow'
+    type: 'file'
+    titleText: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_download_titleText'
+  linkFolder:
+    class: 'link-folder, button primary, button warning, button hollow'
+    type: 'folder'
+    titleText: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_folder_titleText'
+  linkExternal:
+    class: 'link-external, button primary, button warning, button hollow'
+    type: 'url'
+    titleText: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_external_titleText'
+  linkExternalBlank:
+    class: 'link-external-blank, button primary, button warning, button hollow'
+    type: 'url'
+    target: '_blank'
+    titleText: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_external_blank_titleText'
+  linkMail:
+    class: 'link-mail, button primary, button warning, button hollow'
+    type: 'mail'
+    titleText: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_mail_titleText'
+
+
+# alternative titles for classes
+classes:
+  link-internal:
+    name: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_internal_titleText'
+  link-internal-blank:
+    name: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_internal_blank_titleText'
+  link-download:
+    name: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_download_titleText'
+  link-folder:
+    name: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_folder_titleText'
+  link-external:
+    name: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_external_titleText'
+  link-external-blank:
+    name: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_external_blank_titleText'
+  link-mail:
+    name: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_mail_titleText'
+  primary-button:
+    name: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_primarybutton_titleText'
+  primary-warning:
+    name: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_warningbutton_titleText'
+  hollow-button:
+    name: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_hollowbutton_titleText'

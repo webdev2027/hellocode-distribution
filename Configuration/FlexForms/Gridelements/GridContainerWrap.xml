@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+    <meta type="array">
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <general>
+            <ROOT type="array">
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridContainerWrap.flexforms.title</sheetTitle>
+                </TCEforms>
+                <el type="array">
+
+                    <farbe type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridContainerWrap.flexforms.farbe</label>
+                            <config type="array">
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">Weiß</numIndex>
+                                        <numIndex index="1">bgSuccess</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">Schwarz</numIndex>
+                                        <numIndex index="1">bgPrimary</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">Grau</numIndex>
+                                        <numIndex index="1">bgSecondary</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">Transparent</numIndex>
+                                        <numIndex index="1">bgTransparent</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </farbe>
+
+                    <checkboxpaddingTop>
+                        <TCEforms>
+                            <label>LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridContainerWrap.flexforms.checkboxpaddingTop</label>
+                            <config>
+                                <type>check</type>
+                                <default>0</default>
+                            </config>
+                        </TCEforms>
+                    </checkboxpaddingTop>
+
+                    <checkboxpaddingBottom>
+                        <TCEforms>
+                            <label>LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridContainerWrap.flexforms.checkboxpaddingBottom</label>
+                            <config>
+                                <type>check</type>
+                                <default>0</default>
+                            </config>
+                        </TCEforms>
+                    </checkboxpaddingBottom>
+
+
+
+                    <checkboxalign>
+                        <TCEforms>
+                            <label>LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridContainerWrap.flexforms.checkboxalign</label>
+                            <config>
+                                <type>check</type>
+                                <default>0</default>
+                            </config>
+                        </TCEforms>
+                    </checkboxalign>
+<!--
+                    <backgroundimage type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridContainer.flexforms.backgroundimage</label>
+                            <config type="array">
+                                <type>inline</type>
+                                <maxitems>1</maxitems>
+                                <foreign_table>sys_file_reference</foreign_table>
+                                <foreign_table_field>tablenames</foreign_table_field>
+                                <foreign_label>uid_local</foreign_label>
+                                <foreign_sortby>sorting_foreign</foreign_sortby>
+                                <foreign_selector>uid_local</foreign_selector>
+                                <foreign_selector_fieldTcaOverride type="array">
+                                    <config>
+                                        <appearance>
+                                            <elementBrowserType>file</elementBrowserType>
+                                            <elementBrowserAllowed>jpg,png</elementBrowserAllowed>
+                                        </appearance>
+                                    </config>
+                                </foreign_selector_fieldTcaOverride>
+                                <foreign_match_fields type="array">
+                                    <fieldname>image</fieldname>
+                                </foreign_match_fields>
+                                <appearance type="array">
+                                    <newRecordLinkAddTitle>1</newRecordLinkAddTitle>
+                                    <headerThumbnail>
+                                        <field>uid_local</field>
+                                        <height>64</height>
+                                        <width>64</width>
+                                    </headerThumbnail>
+                                </appearance>
+                            </config>
+                        </TCEforms>
+                    </backgroundimage>
+-->
+                </el>
+            </ROOT>
+        </general>
+    </sheets>
+</T3DataStructure>

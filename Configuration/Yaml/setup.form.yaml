@@ -1,0 +1,25 @@
+TYPO3:
+  CMS:
+    Form:
+      persistenceManager:
+        allowedExtensionPaths:
+          10: EXT:icaros/Configuration/Yaml/
+        allowSaveToExtensionPaths: true
+        allowDeleteFromExtensionPaths: true
+
+      prototypes:
+        contact:
+          __inheritances:
+            10: 'TYPO3.CMS.Form.prototypes.standard'
+          formElementsDefinition:
+            Form:
+              renderingOptions:
+                templateRootPaths:
+                  100: 'EXT:icaros/Resources/Private/Extensions/Form/Frontend/Templates/'
+                partialRootPaths:
+                  100: 'EXT:icaros/Resources/Private/Extensions/Form/Frontend/Partials/'
+                layoutRootPaths:
+                  100: 'EXT:icaros/Resources/Private/Extensions/Form/Frontend/Layouts/'
+            Textarea:
+              properties:
+                elementClassAttribute: 'ssa'

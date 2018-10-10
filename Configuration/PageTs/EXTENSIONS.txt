@@ -1,0 +1,12 @@
+#################
+#### TX_NEWS ####
+#################
+
+tx_news {
+
+	templateLayouts {
+	    100 = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tx_news.template.100
+	}
+
+	#predefine.archive = +60 days
+}

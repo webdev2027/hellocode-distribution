@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+    <meta type="array">
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <general>
+            <ROOT type="array">
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridTwoColumns.flexforms.title</sheetTitle>
+                </TCEforms>
+                <el type="array">
+                    <spalten type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridTwoColumns.flexforms.label</label>
+                            <config type="array">
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">50:50</numIndex>
+                                        <numIndex index="1">5050</numIndex>
+                                    </numIndex>
+                                    <!--
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">70:30</numIndex>
+                                        <numIndex index="1">7030</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">30:70</numIndex>
+                                        <numIndex index="1">3070</numIndex>
+                                    </numIndex>
+                                    -->
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </spalten>
+                </el>
+            </ROOT>
+        </general>
+    </sheets>
+</T3DataStructure>

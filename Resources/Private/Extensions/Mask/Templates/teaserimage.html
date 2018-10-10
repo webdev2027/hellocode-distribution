@@ -1,0 +1,43 @@
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+<f:if condition="{data.tx_mask_mask_teaserimage_backgroundimage}">
+  <f:then>
+    <f:for each="{data.tx_mask_mask_teaserimage_backgroundimage}" as="file">
+      <div class="grid-container full noPaddingTop noPaddingBottom bgSuccess backgroundTeaser" style="background-image:url({v:uri.image(src: '{file}', treatIdAsReference: 1)});">
+    </f:for>
+  </f:then>
+  <f:else>
+    <div class="grid-container full noPaddingTop noPaddingBottom bgSuccess backgroundTeaser" style="min-height:400px;">
+  </f:else>
+</f:if>
+
+
+  <div class="grid-x">
+
+      <f:switch expression="{data.tx_mask_mask_teaserimage_animation}">
+        <f:case value="1">
+          <div class="medium-12 large-6 large-offset-6 cell backgroundTeaserText">
+            <div class="frame wow slideInRight">
+        </f:case>
+        <f:case value="2">
+          <div class="medium-12 large-6 cell backgroundTeaserText">
+            <div class="frame wow slideInLeft">
+        </f:case>
+      </f:switch>
+
+
+                <header class="backgroundTeaserHeader">
+
+                  <h3><f:format.raw>{data.tx_mask_mask_teaserimage_header}</f:format.raw></h3>
+
+                  <f:if condition="{data.tx_mask_mask_teaserimage_subheader}">
+                    <h5>{data.tx_mask_mask_teaserimage_subheader}</h5>
+                  </f:if>
+                </header>
+                <div class="backgroundTeaserRte">
+                  <f:format.html parseFuncTSPath="lib.parseFunc_RTE">{data.tx_mask_mask_teaserimage_rte}</f:format.html>
+              </div>
+          </div>
+        </div>
+
+  </div><!-- / grid-x -->
+</div><!-- / grid-container full -->

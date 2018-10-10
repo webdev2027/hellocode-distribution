@@ -1,0 +1,28 @@
+{
+    "name": "ssa/hellocode",
+    "type": "typo3-cms-extension",
+    "description": "FLUID Templates & TypoScript",
+    "authors": [
+        {
+            "name": "Stefan Sajok",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ssa\\Hellocode\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ssa\\Hellocode\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "hellocode": "self.version",
+        "typo3-ter/hellocode": "self.version"
+    }
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" product-name="icaros" date="2018-08-30T10:11:30+02:00">
+		<header/>
+		<body>
+
+            <!-- TEMPLATES & PARTIALS -->
+			<trans-unit id="partial.newsletter.header">
+				<source>SUBSCRIBE TO ICAROS NEWSLETTER</source>
+			</trans-unit>
+			<trans-unit id="partial.newsletter.text">
+				<source><![CDATA[Your email address is only used for sending you ICAROS newsletters.<br>
+				Subscription can be cancelled at any time. For more information please check our  privacy policy.]]></source>
+			</trans-unit>
+			<trans-unit id="partial.newsletter.placeholder">
+				<source>Please insert your email address for our newsletter</source>
+			</trans-unit>
+			<trans-unit id="partial.newsletter.submit">
+				<source>Submit</source>
+			</trans-unit>
+
+
+
+
+            <!-- MASK ELEMENTS -->
+			<trans-unit id="mask.imageslider.textbutton">
+				<source>Read more</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

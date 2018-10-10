@@ -1,0 +1,14 @@
+// Fügt die Konfiguration "..." allen RTE's hinzu, minimal, default, full
+//RTE.default.preset = minimal
+
+// Fügt die Konfiguration "minimal" dem bodytext von Inhaltselementen des Typs textmedia hinzu
+//RTE.tt_content.types.textmedia.bodytext.preset = full
+
+// Fügt die Konfiguration "minimal" dem bodytext von Inhaltselementen des Typs text hinzu ??
+//RTE.config.tt_content.bodytext.preset = full
+
+// Fügt die Konfiguration "default" dem bodytext von News-Datensätzen hinzu
+//RTE.config.tx_news_domain_model_news.bodytext.preset = custom_preset
+
+// Zuweisen der Konfiguration im PageTSconfig, -> ext_localconf.php
+RTE.default.preset = custom_preset

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" product-name="icaros" date="2015-04-27T10:11:30+02:00">
+		<header/>
+		<body>
+
+            <!-- BACKEND LAYOUTS -->
+			<trans-unit id="backend_layout.default.title">
+				<source>[ ICAROS ] Default Template</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.default.main">
+				<source>Content area</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.default.newsletter">
+				<source>Newsletter Subscription</source>
+			</trans-unit>
+
+
+
+			<trans-unit id="backend_layout.subpage.title">
+				<source>[ ICAROS ] Subpage Template with Anchor Menu</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.subpage.bigimage">
+				<source>Image</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.subpage.main">
+				<source>Content area with anchor menu</source>
+			</trans-unit>
+
+
+
+            <!-- GRIDELEMENTS : GridContainer -->
+			<trans-unit id="gridelements.GridContainer.title">
+				<source>[ GRID ] Inner Grid-Container</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridContainer.description">
+				<source>Grid-Column</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridContainer.column">
+				<source>Content</source>
+			</trans-unit>
+
+			<trans-unit id="gridelements.GridContainer.flexforms.title">
+				<source>Options</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridContainer.flexforms.checkboxalign">
+				<source>Align Center</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridContainer.flexforms.checkboxpadding">
+				<source>No Padding-Top</source>
+			</trans-unit>
+
+
+			<trans-unit id="gridelements.GridContainer.flexforms.backgroundimage">
+				<source>Background-Image</source>
+			</trans-unit>
+
+
+
+			<!-- GRIDELEMENTS : GridTwoColumns -->
+			<trans-unit id="gridelements.GridTwoColumns.title">
+				<source>[ GRID ] Grid-2-Columns</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridTwoColumns.description">
+				<source>Grid-Element with two columns (50:50, 70:30, 30:70)</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridTwoColumns.Left">
+				<source>Left</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridTwoColumns.Right">
+				<source>Right</source>
+			</trans-unit>
+
+			<trans-unit id="gridelements.GridTwoColumns.flexforms.title">
+				<source>Split</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridTwoColumns.flexforms.label">
+				<source>Columns</source>
+			</trans-unit>
+
+
+            <!-- GRIDELEMENTS : GridContainerWrap -->
+            <trans-unit id="gridelements.GridContainerWrap.title">
+                <source>[ GRID ] Outer Grid-Container</source>
+            </trans-unit>
+            <trans-unit id="gridelements.GridContainerWrap.description">
+                <source>Full width container with background color</source>
+            </trans-unit>
+            <trans-unit id="gridelements.GridContainerWrap.column">
+                <source>Content</source>
+            </trans-unit>
+
+            <trans-unit id="gridelements.GridContainerWrap.flexforms.title">
+                <source>Options</source>
+            </trans-unit>
+            <trans-unit id="gridelements.GridContainerWrap.flexforms.farbe">
+                <source>Background-Color</source>
+            </trans-unit>
+            <trans-unit id="gridelements.GridContainerWrap.flexforms.checkboxpaddingTop">
+                <source>No Padding Top</source>
+            </trans-unit>
+            <trans-unit id="gridelements.GridContainerWrap.flexforms.checkboxpaddingBottom">
+                <source>No Padding Bottom</source>
+            </trans-unit>
+            <trans-unit id="gridelements.GridContainerWrap.flexforms.checkboxalign">
+                <source>Align Center</source>
+            </trans-unit>
+
+
+
+
+
+
+            <!-- CONSTANTS -->
+            <trans-unit id="constants.siteName">
+				<source>Website Name</source>
+			</trans-unit>
+            <trans-unit id="constants.navQuicklinkFolder">
+				<source><![CDATA[Ordner für die Schnellzugriffe in der Fußleiste]]></source>
+			</trans-unit>
+            <trans-unit id="constants.navInfo">
+				<source><![CDATA[Ordner für Info-Navigation in der Fußleiste]]></source>
+			</trans-unit>
+            <trans-unit id="constants.socialFacebook">
+				<source><![CDATA[Facebook]]></source>
+			</trans-unit>
+            <trans-unit id="constants.socialInstagram">
+				<source><![CDATA[Instagram]]></source>
+			</trans-unit>
+            <trans-unit id="constants.socialLinkedin">
+				<source><![CDATA[LinkedIn]]></source>
+			</trans-unit>
+            <trans-unit id="constants.socialTwitter">
+				<source><![CDATA[Twitter]]></source>
+			</trans-unit>
+            <trans-unit id="constants.navTop">
+				<source><![CDATA[Ordner für Navigation in der Kopfleiste rechts]]></source>
+			</trans-unit>
+            <trans-unit id="constants.top1">
+				<source>Top 1</source>
+			</trans-unit>
+            <trans-unit id="constants.top2">
+				<source>Top 2</source>
+			</trans-unit>
+            <trans-unit id="constants.top3">
+				<source>Top 3</source>
+			</trans-unit>
+
+
+
+
+            <!-- ckEDITOR -->
+            <trans-unit id="ckeditor.link_internal_titleText">
+				<source>Interner Link</source>
+			</trans-unit>
+            <trans-unit id="ckeditor.link_internal_blank_titleText">
+				<source>Interner Link im neuen Fenster</source>
+			</trans-unit>
+            <trans-unit id="ckeditor.link_external_titleText">
+				<source>Externer Link</source>
+			</trans-unit>
+            <trans-unit id="ckeditor.link_external_blank_titleText">
+				<source>Externer Link im neuen Fenster</source>
+			</trans-unit>
+
+            <trans-unit id="ckeditor.link_folder_titleText">
+				<source>Link zu einem Verzeichis</source>
+			</trans-unit>
+            <trans-unit id="ckeditor.link_download_titleText">
+				<source>Download-Link</source>
+			</trans-unit>
+            <trans-unit id="ckeditor.link_mail_titleText">
+				<source>Mail-Link</source>
+			</trans-unit>
+
+            <trans-unit id="ckeditor.link_primarybutton_titleText">
+				<source>Button black</source>
+			</trans-unit>
+            <trans-unit id="ckeditor.link_warningbutton_titleText">
+				<source>Button orange</source>
+			</trans-unit>
+            <trans-unit id="ckeditor.link_hollowbutton_titleText">
+				<source>Button clear</source>
+			</trans-unit>
+
+
+
+
+            <!-- TCEFORM -->
+            <trans-unit id="tceform.header.0">
+				<source>Headline h2</source>
+			</trans-unit>
+            <trans-unit id="tceform.header.1">
+				<source>Headline h1</source>
+			</trans-unit>
+            <trans-unit id="tceform.header.2">
+				<source>Headline 2</source>
+			</trans-unit>
+            <trans-unit id="tceform.header.3">
+				<source>Headline h3</source>
+			</trans-unit>
+            <trans-unit id="tceform.header.4">
+				<source>Headline h4 with horizontal line</source>
+			</trans-unit>
+            <trans-unit id="tceform.header.5">
+				<source>Headline h5</source>
+			</trans-unit>
+            <trans-unit id="tceform.header.hidden">
+				<source>Hide</source>
+			</trans-unit>
+            <trans-unit id="tceform.header.6">
+				<source>Headline h6</source>
+			</trans-unit>
+
+
+
+            <trans-unit id="tceform.layout.0">
+				<source>Standard</source>
+			</trans-unit>
+            <trans-unit id="tceform.layout.1">
+				<source>Hide Headline in Anchor Menu</source>
+			</trans-unit>
+            <trans-unit id="tceform.layout.2">
+				<source>Layout 2</source>
+			</trans-unit>
+            <trans-unit id="tceform.layout.3">
+				<source>Layout 3</source>
+			</trans-unit>
+
+
+
+            <trans-unit id="tceform.frame_class.0">
+				<source>Standard</source>
+			</trans-unit>
+            <trans-unit id="tceform.frame_class.1">
+				<source>Rahmen 2</source>
+			</trans-unit>
+
+            <trans-unit id="tceform.frame_class.own1">
+				<source>Callout</source>
+			</trans-unit>
+
+
+
+            <!-- tx_news -->
+			<trans-unit id="tx_news.template.100">
+				<source>ICAROS Experiences List View</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

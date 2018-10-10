@@ -1,0 +1,16 @@
+#################
+#### TCAdefaults ####
+#################
+TCAdefaults {
+
+	tt_content {
+
+		### oben links
+		imageorient    = 2
+
+		### anzahl der spalten
+		imagecols      = 1
+
+	}
+
+} ### TCAdefaults

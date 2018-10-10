@@ -1,0 +1,18 @@
+options {
+  pageTree {
+    ### show page id
+    showPageIdWithTitle = 1
+
+    ### change colours
+    backgroundColor {
+      #3 = rgba(246, 194, 52, 0.3)
+    }
+  }
+
+  ### clear cache button
+  ## red flash
+  #clearCache.system = 1
+  ## green flash
+  clearCache.pages = 1
+  #clearCache.all = 1
+}

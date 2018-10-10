@@ -1,0 +1,52 @@
+TCEFORM {
+
+	tx_news_domain_model_news {
+
+		### Rename Labels
+
+		#title.label.de = Messe oder Veranstaltung
+        #teaser.label.de = Veranstaltungsdauer
+        #istopnews.label.de = Top-Veranstaltung
+        #author.label.de = Veranstaltungsort
+        #author_email.label.de = Standnummer
+		#bodytext.label.de = test bodytext
+		#tags.label.de = Jahre
+		#fal_media.label.de = Bilder
+		#fal_related_files.label.de = Dateien zum Download
+		#content_elements.label.de = Vorschaubild [ Inhaltselement Bild wählen ]
+
+
+		### Hide Flexform Fields
+
+		teaser.disabled = 0
+
+		bodytext.disabled = 0
+
+		datetime.disabled = 0
+
+		author.disabled = 1
+
+		author_email.disabled = 1
+
+		archive.disabled = 1
+
+		istopnews.disabled = 1
+
+		tags.disabled = 0
+
+		type.disabled = 0
+
+		related.disabled = 1
+
+		fal_related_files.disabled = 0
+
+		related_from.disabled = 1
+
+		related_links.disabled = 1
+
+		sys_language_uid.disabled = 0
+
+		notes.disabled = 1
+	}
+
+}

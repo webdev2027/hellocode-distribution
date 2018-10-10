@@ -1,0 +1,105 @@
+tx_gridelements {
+
+    // TS Elemente haben Vorrang vor Datensätzen mit gleichen IDs
+    #overruleRecords = 1
+
+    setup {
+
+      GridContainer {
+
+        title = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridContainer.title
+        description = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridContainer.description
+
+        #icon = EXT:example_extension/Resources/Public/Images/BackendLayouts/default.gif
+        frame = 1
+
+        flexformDS = FILE:EXT:icaros/Configuration/FlexForms/Gridelements/GridContainer.xml
+
+        config {
+
+            colCount = 1
+            rowCount = 1
+            rows {
+              1 {
+                columns {
+                  1 {
+                    name = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridContainer.Column
+                    colPos = 1001
+                  }
+                }
+              }
+            }
+
+        }
+
+      } // gridelement GridContainer
+
+
+
+
+      GridTwoColumns {
+
+        title = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridTwoColumns.title
+        description = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridTwoColumns.description
+
+        #icon = EXT:example_extension/Resources/Public/Images/BackendLayouts/default.gif
+        frame = 2
+
+        flexformDS = FILE:EXT:icaros/Configuration/FlexForms/Gridelements/GridTwoColumns.xml
+
+        config {
+
+            colCount = 2
+            rowCount = 1
+            rows {
+              1 {
+                columns {
+                  1 {
+                    name = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridTwoColumns.Left
+                    colPos = 1001
+                  }
+                  2 {
+                    name = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridTwoColumns.Right
+                    colPos = 1002
+                  }
+                }
+              }
+            }
+
+        }
+
+      } // gridelement GridTwoColumns
+
+
+
+      GridContainerWrap {
+
+        title = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridContainerWrap.title
+        description = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridContainerWrap.description
+
+        #icon = EXT:example_extension/Resources/Public/Images/BackendLayouts/default.gif
+        frame = 3
+
+        flexformDS = FILE:EXT:icaros/Configuration/FlexForms/Gridelements/GridContainerWrap.xml
+
+        config {
+
+            colCount = 1
+            rowCount = 1
+            rows {
+              1 {
+                columns {
+                  1 {
+                    name = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridContainerWrap.Column
+                    colPos = 1001
+                  }
+                }
+              }
+            }
+
+        }
+
+      } // gridelement GridContainerWrap
+
+    }
+}
