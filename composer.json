@@ -2,14 +2,16 @@
     "name": "ssa/hellocode",
     "type": "typo3-cms-extension",
     "description": "FLUID Templates & TypoScript",
+    "homepage": "https://www.hellocode.de/",
     "authors": [
         {
             "name": "Stefan Sajok",
             "role": "Developer"
         }
     ],
+    "license": "GPL-2.0-or-later",
     "require": {
-        "typo3/cms-core": "^8.7.1"
+        "typo3/cms-core": "^8.7 || ^9 || dev-master",
     },
     "autoload": {
         "psr-4": {
