@@ -1,12 +1,23 @@
 {
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://composer.typo3.org/"
+        }
+    ],
     "name": "ssa/hellocode",
     "type": "typo3-cms-extension",
     "description": "FLUID Templates & TypoScript",
-    "homepage": "https://www.hellocode.de/",
+    "version": "1.0.0",
+    "keywords": [
+        "TYPO3",
+        "extension"
+    ],
     "authors": [
         {
             "name": "Stefan Sajok",
-            "role": "Developer"
+            "role": "Developer",
+            "homepage": "https://www.hellocode.de/"
         }
     ],
     "license": "GPL-2.0-or-later",
