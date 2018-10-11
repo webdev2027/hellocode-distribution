@@ -13,6 +13,7 @@
     "type": "typo3-cms-extension",
     "description": "FLUID Templates & TypoScript",
     "version": "1.0.0",
+    "minimum-stability": "beta",
     "keywords": [
         "TYPO3",
         "extension"
