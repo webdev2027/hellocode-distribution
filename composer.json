@@ -24,6 +24,9 @@
             "homepage": "https://www.hellocode.de/"
         }
     ],
+    "license": [
+        "GPL-3.0-or-later"
+    ],
     "require": {
         "typo3/cms-core": "^9.5"
     },
