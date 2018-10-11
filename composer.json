@@ -3,6 +3,10 @@
         {
             "type": "composer",
             "url": "https://composer.typo3.org/"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/webdev2027/hellocode-distribution.git"
         }
     ],
     "name": "ssa/hellocode",
@@ -20,9 +24,8 @@
             "homepage": "https://www.hellocode.de/"
         }
     ],
-    "license": "GPL-2.0-or-later",
     "require": {
-        "typo3/cms-core": ">=8.7",
+        "typo3/cms-core": "^9.5",
     },
     "autoload": {
         "psr-4": {
