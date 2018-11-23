@@ -29,7 +29,7 @@
         "GPL-3.0-or-later"
     ],
     "require": {
-        "typo3/cms-core": ">=8.7"
+        "typo3/cms-core": "^8.7"
     },
     "autoload": {
         "psr-4": {

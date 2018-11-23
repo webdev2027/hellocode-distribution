@@ -28,7 +28,8 @@
 .idea/**/gradle.xml
 .idea/**/libraries
 
-
+# Composer
+composer.phar
 
 # Ignore several upload and file directories.
 /fileadmin/user_upload/
