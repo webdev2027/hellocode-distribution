@@ -9,7 +9,7 @@
             "url": "https://github.com/webdev2027/hellocode-distribution.git"
         }
     ],
-    "name": "ssa/hellocode",
+    "name": "stsa/hellocode",
     "type": "typo3-cms-extension",
     "description": "FLUID Templates & TypoScript",
     "version": "1.0.0",
@@ -33,7 +33,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ssa\\Hellocode\\": "Classes"
+            "Stsa\\Hellocode\\": "Classes"
         }
     },
     "replace": {
