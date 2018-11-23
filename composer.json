@@ -1,18 +1,8 @@
 {
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://composer.typo3.org/"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/webdev2027/hellocode-distribution.git"
-        }
-    ],
     "name": "stsa/hellocode",
     "type": "typo3-cms-extension",
     "description": "FLUID Templates & TypoScript",
-    "version": "1.0.0",
+    "homepage": "https://www.hellocode.de/",
     "minimum-stability": "beta",
     "keywords": [
         "TYPO3",
@@ -21,6 +11,7 @@
     "authors": [
         {
             "name": "Stefan Sajok",
+            "email": "hello@hellocode.de@",
             "role": "Developer",
             "homepage": "https://www.hellocode.de/"
         }
@@ -29,7 +20,7 @@
         "GPL-3.0-or-later"
     ],
     "require": {
-        "typo3/cms-core": "^8.7"
+        "typo3/cms-core": ">=8.7"
     },
     "autoload": {
         "psr-4": {
