@@ -3,7 +3,6 @@
     "type": "typo3-cms-extension",
     "description": "FLUID Templates & TypoScript",
     "homepage": "https://www.hellocode.de/",
-    "minimum-stability": "stable",
     "keywords": [
         "TYPO3",
         "CMS",
@@ -21,7 +20,7 @@
         "GPL-2.0-or-later"
     ],
     "require": {
-        "typo3/cms-core": "*"
+        "typo3/cms-core": "^9.5"
     },
     "autoload": {
         "psr-4": {
@@ -34,8 +33,7 @@
     },
     "extra": {
         "typo3/cms": {
-            "cms-package-dir": "{$vendor-dir}/typo3/cms",
-            "web-dir": "public"
+            "extension-key": "stsa_hellocode"
         }
     }
 }
