@@ -1,8 +1,8 @@
 {
-    "name": "stsa/hellocode",
+    "name": "stsa/hellotypo3",
     "type": "typo3-cms-extension",
     "description": "FLUID Templates & TypoScript",
-    "homepage": "https://www.hellocode.de/",
+    "homepage": "https://www.hellotypo3.de/",
     "keywords": [
         "TYPO3",
         "CMS",
@@ -10,10 +10,10 @@
     ],
     "authors": [
         {
-            "name": "Stefan Sajok",
-            "email": "hello@hellocode.de",
+            "name": "StSa",
+            "email": "hello@hellotypo3.de",
             "role": "Developer",
-            "homepage": "https://www.hellocode.de/"
+            "homepage": "https://www.hellotypo3.de/"
         }
     ],
     "license": [
@@ -24,16 +24,11 @@
     },
     "autoload": {
         "psr-4": {
-            "Stsa\\Hellocode\\": "Classes/"
+            "Stsa\\Hellotypo3\\": "Classes/"
         }
     },
     "replace": {
-        "hellocode": "self.version",
-        "typo3-ter/hellocode": "self.version"
-    },
-    "extra": {
-        "typo3/cms": {
-            "extension-key": "stsa_hellocode"
-        }
+        "hellotypo3": "self.version",
+        "typo3-ter/hellotypo3": "self.version"
     }
 }
