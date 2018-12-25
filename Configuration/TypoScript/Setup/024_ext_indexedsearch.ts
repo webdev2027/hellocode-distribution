@@ -3,11 +3,11 @@
 #  * info          Ext. form
 #  *
 #  *
-#  * url			icaros.com
-#  * client         icaros
+#  * url			hellotypo3.de
+#  * client         hellotypo3
 #  * date           18-09-14
 #  *
-#  * author         ssa :: hello@hellocode.de
+#  * author         ssa :: hello@hellotypo3.de
 #  *
 #  * ========================================================================== */
 

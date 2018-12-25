@@ -14,7 +14,7 @@ imports:
 # For complete documentation see http://docs.ckeditor.com/#!/api/CKEDITOR.config
 editor:
   config:
-    contentsCss: ["EXT:rte_ckeditor/Resources/Public/Css/contents.css", "EXT:icaros/Resources/Public/Css/ckeditor.css"]
+    contentsCss: ["EXT:rte_ckeditor/Resources/Public/Css/contents.css", "EXT:hellotypo3/Resources/Public/Css/ckeditor.css"]
 
     width: '680px'
     resize_enabled: true
@@ -133,54 +133,54 @@ classesAnchor:
   linkInternal:
     class: 'link-internal, button primary, button warning, button hollow'
     type: 'page'
-    titleText: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_internal_titleText'
+    titleText: 'LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:ckeditor.link_internal_titleText'
   linkInternalBlank:
     class: 'link-internal-blank, button primary, button warning, button hollow'
     type: 'page'
     target: '_blank'
-    titleText: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_internal_blank_titleText'
+    titleText: 'LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:ckeditor.link_internal_blank_titleText'
   linkDownload:
     class: 'link-download, button primary, button warning, button hollow'
     type: 'file'
-    titleText: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_download_titleText'
+    titleText: 'LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:ckeditor.link_download_titleText'
   linkFolder:
     class: 'link-folder, button primary, button warning, button hollow'
     type: 'folder'
-    titleText: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_folder_titleText'
+    titleText: 'LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:ckeditor.link_folder_titleText'
   linkExternal:
     class: 'link-external, button primary, button warning, button hollow'
     type: 'url'
-    titleText: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_external_titleText'
+    titleText: 'LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:ckeditor.link_external_titleText'
   linkExternalBlank:
     class: 'link-external-blank, button primary, button warning, button hollow'
     type: 'url'
     target: '_blank'
-    titleText: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_external_blank_titleText'
+    titleText: 'LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:ckeditor.link_external_blank_titleText'
   linkMail:
     class: 'link-mail, button primary, button warning, button hollow'
     type: 'mail'
-    titleText: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_mail_titleText'
+    titleText: 'LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:ckeditor.link_mail_titleText'
 
 
 # alternative titles for classes
 classes:
   link-internal:
-    name: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_internal_titleText'
+    name: 'LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:ckeditor.link_internal_titleText'
   link-internal-blank:
-    name: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_internal_blank_titleText'
+    name: 'LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:ckeditor.link_internal_blank_titleText'
   link-download:
-    name: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_download_titleText'
+    name: 'LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:ckeditor.link_download_titleText'
   link-folder:
-    name: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_folder_titleText'
+    name: 'LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:ckeditor.link_folder_titleText'
   link-external:
-    name: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_external_titleText'
+    name: 'LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:ckeditor.link_external_titleText'
   link-external-blank:
-    name: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_external_blank_titleText'
+    name: 'LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:ckeditor.link_external_blank_titleText'
   link-mail:
-    name: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_mail_titleText'
+    name: 'LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:ckeditor.link_mail_titleText'
   primary-button:
-    name: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_primarybutton_titleText'
+    name: 'LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:ckeditor.link_primarybutton_titleText'
   primary-warning:
-    name: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_warningbutton_titleText'
+    name: 'LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:ckeditor.link_warningbutton_titleText'
   hollow-button:
-    name: 'LLL:EXT:icaros/Resources/Private/Language/backend.xlf:ckeditor.link_hollowbutton_titleText'
+    name: 'LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:ckeditor.link_hollowbutton_titleText'

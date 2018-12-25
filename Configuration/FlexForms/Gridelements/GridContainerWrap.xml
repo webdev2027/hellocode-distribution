@@ -7,13 +7,13 @@
         <general>
             <ROOT type="array">
                 <TCEforms>
-                    <sheetTitle>LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridContainerWrap.flexforms.title</sheetTitle>
+                    <sheetTitle>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainerWrap.flexforms.title</sheetTitle>
                 </TCEforms>
                 <el type="array">
 
                     <farbe type="array">
                         <TCEforms type="array">
-                            <label>LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridContainerWrap.flexforms.farbe</label>
+                            <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainerWrap.flexforms.farbe</label>
                             <config type="array">
                                 <type>select</type>
                                 <items type="array">
@@ -40,7 +40,7 @@
 
                     <checkboxpaddingTop>
                         <TCEforms>
-                            <label>LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridContainerWrap.flexforms.checkboxpaddingTop</label>
+                            <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainerWrap.flexforms.checkboxpaddingTop</label>
                             <config>
                                 <type>check</type>
                                 <default>0</default>
@@ -50,7 +50,7 @@
 
                     <checkboxpaddingBottom>
                         <TCEforms>
-                            <label>LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridContainerWrap.flexforms.checkboxpaddingBottom</label>
+                            <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainerWrap.flexforms.checkboxpaddingBottom</label>
                             <config>
                                 <type>check</type>
                                 <default>0</default>
@@ -62,7 +62,7 @@
 
                     <checkboxalign>
                         <TCEforms>
-                            <label>LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridContainerWrap.flexforms.checkboxalign</label>
+                            <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainerWrap.flexforms.checkboxalign</label>
                             <config>
                                 <type>check</type>
                                 <default>0</default>
@@ -72,7 +72,7 @@
 <!--
                     <backgroundimage type="array">
                         <TCEforms type="array">
-                            <label>LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridContainer.flexforms.backgroundimage</label>
+                            <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainer.flexforms.backgroundimage</label>
                             <config type="array">
                                 <type>inline</type>
                                 <maxitems>1</maxitems>

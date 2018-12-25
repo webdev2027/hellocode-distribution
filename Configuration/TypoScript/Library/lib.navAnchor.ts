@@ -3,11 +3,11 @@
 #  * info          anchor sub navigation for subpages
 #  *
 #  *
-#  * url			icaros.com
-#  * client         icaros
+#  * url			hellotypo3.de
+#  * client         hellotypo3
 #  * date           18-08-10
 #  *
-#  * author         ssa :: hello@hellocode.de
+#  * author         ssa :: hello@hellotypo3.de
 #  *
 #  * ========================================================================== */
 lib.navAnchor = COA
@@ -68,7 +68,7 @@ lib.navAnchor  {
 
     95 = TEXT
     95.value (
-        <a href="https://shop.icaros.com" target="_blank" class="button primary" style="margin:12px 0 0;">Order Now</a>
+        <a href="https://hellotypo3.de" target="_blank" class="button primary" style="margin:12px 0 0;">Order Now</a>
     )
 
     100 = TEXT

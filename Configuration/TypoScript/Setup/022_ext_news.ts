@@ -3,11 +3,11 @@
 #  * info          Ext. news
 #  *
 #  *
-#  * url			icaros.com
-#  * client         icaros
+#  * url			hellotypo3.de
+#  * client         hellotypo3
 #  * date           18-08-10
 #  *
-#  * author         ssa :: hello@hellocode.de
+#  * author         ssa :: hello@hellotypo3.de
 #  *
 #  * ========================================================================== */
 plugin.tx_news {
@@ -22,7 +22,7 @@ plugin.tx_news {
         layoutRootPaths {
             100 = {$extensionsRoot}News/Layouts/
         }
-        widget.GeorgRinger\News\ViewHelpers\Widget\PaginateViewHelper.templateRootPath = EXT:icaros/Resources/Private/Extensions/News/Templates/
+        widget.GeorgRinger\News\ViewHelpers\Widget\PaginateViewHelper.templateRootPath = EXT:hellotypo3/Resources/Private/Extensions/News/Templates/
     }
 
 
@@ -82,7 +82,7 @@ plugin.tx_news {
                     width = 570c
                     height = 350c
                 }
-                dummyImage = typo3conf/ext/icaros/Resources/Public/Images/Logos/logo_news_dummy.png
+                dummyImage = typo3conf/ext/hellotypo3/Resources/Public/Images/Logos/logo_news_dummy.png
             }
 
 

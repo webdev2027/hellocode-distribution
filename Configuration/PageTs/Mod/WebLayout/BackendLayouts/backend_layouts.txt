@@ -2,9 +2,9 @@ mod.web_layout.BackendLayouts {
 
   1 {
 
-    title = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:backend_layout.default.title
+    title = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:backend_layout.default.title
 
-    #icon = EXT:icaros/Resources/Public/Icons/be_layout_default.gif
+    #icon = EXT:hellotypo3/Resources/Public/Icons/be_layout_default.gif
 
     config {
       backend_layout {
@@ -15,7 +15,7 @@ mod.web_layout.BackendLayouts {
           1 {
             columns {
               1 {
-                name = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:backend_layout.default.main
+                name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:backend_layout.default.main
                 colPos = 101
               }
             }
@@ -24,7 +24,7 @@ mod.web_layout.BackendLayouts {
           2 {
             columns {
               1 {
-                name = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:backend_layout.default.newsletter
+                name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:backend_layout.default.newsletter
                 colPos = 501
               }
             }
@@ -38,9 +38,9 @@ mod.web_layout.BackendLayouts {
 
   2 {
 
-    title = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:backend_layout.subpage.title
+    title = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:backend_layout.subpage.title
 
-    #icon = EXT:icaros/Resources/Public/Icons/be_layout_default.gif
+    #icon = EXT:hellotypo3/Resources/Public/Icons/be_layout_default.gif
 
     config {
       backend_layout {
@@ -51,7 +51,7 @@ mod.web_layout.BackendLayouts {
           1 {
             columns {
               1 {
-                name = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:backend_layout.subpage.bigimage
+                name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:backend_layout.subpage.bigimage
                 colPos = 201
               }
             }
@@ -60,7 +60,7 @@ mod.web_layout.BackendLayouts {
           2 {
             columns {
               1 {
-                name = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:backend_layout.subpage.main
+                name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:backend_layout.subpage.main
                 colPos = 101
               }
             }

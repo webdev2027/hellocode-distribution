@@ -8,14 +8,14 @@ TCEFORM {
 		layout {
 
 			altLabels {
-				0 = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.layout.0
-				1 = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.layout.1
-				2 = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.layout.2
-				3 = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.layout.3
+				0 = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.layout.0
+				1 = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.layout.1
+				2 = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.layout.2
+				3 = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.layout.3
 			}
 			#addItems {
-			#	4 = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.layout.4
-            #	5 = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.layout.5
+			#	4 = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.layout.4
+            #	5 = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.layout.5
             #}
 
             removeItems = 1,2,3
@@ -25,34 +25,34 @@ TCEFORM {
 			removeItems = ruler-before,ruler-after,indent,indent-left,indent-right,none
 
 			altLabels {
-			    default      = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.frame_class.0
-				ruler-before = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.frame_class.1
-				ruler-after  = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.frame_class.2
-				indent       = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.frame_class.3
-				indent-left  = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.frame_class.4
-				indent-right = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.frame_class.5
-				none         = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.frame_class.6
+			    default      = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.frame_class.0
+				ruler-before = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.frame_class.1
+				ruler-after  = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.frame_class.2
+				indent       = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.frame_class.3
+				indent-left  = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.frame_class.4
+				indent-right = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.frame_class.5
+				none         = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.frame_class.6
 			}
 			#addItems {
-			#    callout = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.frame_class.own1
+			#    callout = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.frame_class.own1
             #}
 		}
 
 		header_layout {
 
 			altLabels {
-        		0 = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.header.0
-        		1 = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.header.1
-        		2 = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.header.2
-        		3 = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.header.3
-        		4 = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.header.4
-        		5 = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.header.5
-        		100 = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.header.hidden
+        		0 = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.header.0
+        		1 = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.header.1
+        		2 = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.header.2
+        		3 = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.header.3
+        		4 = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.header.4
+        		5 = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.header.5
+        		100 = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.header.hidden
         	}
         	removeItems = 2
 
 			### https://jweiland.net/typo3/codebeispiele/typoscript/zusaetzliche-ueberschriften.html#c3341
-        	#addItems.6 = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:tceform.header.6
+        	#addItems.6 = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.header.6
 		}
 
 
@@ -62,7 +62,7 @@ TCEFORM {
 
 
         #imageborder {
-        #    label = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:imageborder.name
+        #    label = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:imageborder.name
         #}
 
 
@@ -111,8 +111,8 @@ TCEFORM {
 				# categorized_pages = Seiten für die ausgewählten Kategorien
 				# categorized_content = Inhaltselemente für die ausgewählten Kategorien
 
-				0 = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:menu.0
-				1 = LLL:EXT:icaros/Resources/Private/Language/backend.xlf:menu.1
+				0 = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:menu.0
+				1 = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:menu.1
 			}
 
 		}

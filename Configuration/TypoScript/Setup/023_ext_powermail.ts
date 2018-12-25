@@ -3,11 +3,11 @@
 #  * info          Ext. form
 #  *
 #  *
-#  * url			icaros.com
-#  * client         icaros
+#  * url			hellotypo3.de
+#  * client         hellotypo3
 #  * date           18-09-14
 #  *
-#  * author         ssa :: hello@hellocode.de
+#  * author         ssa :: hello@hellotypo3.de
 #  *
 #  * ========================================================================== */
 
@@ -15,11 +15,11 @@
 // https://docs.typo3.org/typo3cms/drafts/code.tritum.de/TYPO3.CMS/Form_Documentation/Index.html
 /*
 plugin.tx_form.settings.yamlConfigurations {
-    100 = EXT:icaros/Configuration/Yaml/setup.form.yaml
+    100 = EXT:hellotypo3/Configuration/Yaml/setup.form.yaml
 }
 
 module.tx_form.settings.yamlConfigurations {
-    100 = EXT:icaros/Configuration/Yaml/setup.form.yaml
+    100 = EXT:hellotypo3/Configuration/Yaml/setup.form.yaml
 }
 */
 

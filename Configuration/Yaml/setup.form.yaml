@@ -3,7 +3,7 @@ TYPO3:
     Form:
       persistenceManager:
         allowedExtensionPaths:
-          10: EXT:icaros/Configuration/Yaml/
+          10: EXT:hellotypo3/Configuration/Yaml/
         allowSaveToExtensionPaths: true
         allowDeleteFromExtensionPaths: true
 
@@ -15,11 +15,11 @@ TYPO3:
             Form:
               renderingOptions:
                 templateRootPaths:
-                  100: 'EXT:icaros/Resources/Private/Extensions/Form/Frontend/Templates/'
+                  100: 'EXT:hellotypo3/Resources/Private/Extensions/Form/Frontend/Templates/'
                 partialRootPaths:
-                  100: 'EXT:icaros/Resources/Private/Extensions/Form/Frontend/Partials/'
+                  100: 'EXT:hellotypo3/Resources/Private/Extensions/Form/Frontend/Partials/'
                 layoutRootPaths:
-                  100: 'EXT:icaros/Resources/Private/Extensions/Form/Frontend/Layouts/'
+                  100: 'EXT:hellotypo3/Resources/Private/Extensions/Form/Frontend/Layouts/'
             Textarea:
               properties:
                 elementClassAttribute: 'ssa'

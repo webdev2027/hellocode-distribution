@@ -1,70 +1,70 @@
 ### provider ext.
-plugin.tx_icaros.view {
-	templateRootPaths.0 = EXT:icaros/Resources/Private/Templates/
-	partialRootPaths.0 = EXT:icaros/Resources/Private/Partials/
-	layoutRootPaths.0 = EXT:icaros/Resources/Private/Layouts/
+plugin.tx_hellotypo3.view {
+	templateRootPaths.0 = EXT:hellotypo3/Resources/Private/Templates/
+	partialRootPaths.0 = EXT:hellotypo3/Resources/Private/Partials/
+	layoutRootPaths.0 = EXT:hellotypo3/Resources/Private/Layouts/
 }
 
 ### own variables
-myTemplateRootPath      = EXT:icaros/Resources/Private/Templates/
-myPartialRootPath       = EXT:icaros/Resources/Private/Partials/
-myLayoutRootPath        = EXT:icaros/Resources/Private/Layouts/
+myTemplateRootPath      = EXT:hellotypo3/Resources/Private/Templates/
+myPartialRootPath       = EXT:hellotypo3/Resources/Private/Partials/
+myLayoutRootPath        = EXT:hellotypo3/Resources/Private/Layouts/
 
 
 ### third party extension path
-extensionsRoot          = EXT:icaros/Resources/Private/Extensions/
+extensionsRoot          = EXT:hellotypo3/Resources/Private/Extensions/
 
 ### publicPathExt
-publicPathExt           = EXT:icaros/Resources/Public/
+publicPathExt           = EXT:hellotypo3/Resources/Public/
 
 ### publicPath StyleSheets
-publicPathStyleSheets   = EXT:icaros/Resources/Public/Css/
+publicPathStyleSheets   = EXT:hellotypo3/Resources/Public/Css/
 
 ### publicPath JavaScript
-publicPathJavaScript    = EXT:icaros/Resources/Public/JavaScripts/
+publicPathJavaScript    = EXT:hellotypo3/Resources/Public/JavaScripts/
 
 ### publicPath Images
-publicPathImages        = EXT:icaros/Resources/Public/Images/
+publicPathImages        = EXT:hellotypo3/Resources/Public/Images/
 
 ### publicPath Fonts
-publicPathFonts         = EXT:icaros/Resources/Public/Fonts/
+publicPathFonts         = EXT:hellotypo3/Resources/Public/Fonts/
 
 
 
 ### edit constants via backend
 
-# cat=icaros/settings; type=string; label=LLL:EXT:icaros/Resources/Private/Language/backend.xlf:constants.siteName
-siteName = ICAROS
+# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.siteName
+siteName = hellotypo3
 
-# cat=icaros/settings; type=string; label=LLL:EXT:icaros/Resources/Private/Language/backend.xlf:defaultDescription
+# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:defaultDescription
 #defaultDescription =
 
-# cat=icaros/settings; type=string; label=LLL:EXT:icaros/Resources/Private/Language/backend.xlf:constants.navQuicklinkFolder
+# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.navQuicklinkFolder
 navQuicklinkFolder = 13
 
-# cat=icaros/settings; type=string; label=LLL:EXT:icaros/Resources/Private/Language/backend.xlf:constants.navInfo
+# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.navInfo
 navInfo = 12
 
 
-# cat=icaros/settings; type=string; label=LLL:EXT:icaros/Resources/Private/Language/backend.xlf:constants.navTop
+# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.navTop
 navTop = 24
 
 
 
-# cat=icaros/settings; type=string; label=LLL:EXT:icaros/Resources/Private/Language/backend.xlf:constants.socialFacebook
+# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.socialFacebook
 socialFacebook = 20
-# cat=icaros/settings; type=string; label=LLL:EXT:icaros/Resources/Private/Language/backend.xlf:constants.socialLinkedin
+# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.socialLinkedin
 socialLinkedin = 22
-# cat=icaros/settings; type=string; label=LLL:EXT:icaros/Resources/Private/Language/backend.xlf:constants.socialInstagram
+# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.socialInstagram
 socialInstagram = 23
-# cat=icaros/settings; type=string; label=LLL:EXT:icaros/Resources/Private/Language/backend.xlf:constants.socialTwitter
+# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.socialTwitter
 socialTwitter = 21
 
 
 
-# cat=icaros/settings; type=string; label=LLL:EXT:icaros/Resources/Private/Language/backend.xlf:constants.top1
+# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.top1
 top1 = 25
-# cat=icaros/settings; type=string; label=LLL:EXT:icaros/Resources/Private/Language/backend.xlf:constants.top2
+# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.top2
 top2 = 26
-# cat=icaros/settings; type=string; label=LLL:EXT:icaros/Resources/Private/Language/backend.xlf:constants.top3
+# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.top3
 top3 = 27

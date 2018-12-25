@@ -7,14 +7,14 @@
         <general>
             <ROOT type="array">
                 <TCEforms>
-                    <sheetTitle>LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridContainer.flexforms.title</sheetTitle>
+                    <sheetTitle>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainer.flexforms.title</sheetTitle>
                 </TCEforms>
                 <el type="array">
 
 
                     <checkboxalign>
                         <TCEforms>
-                            <label>LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridContainer.flexforms.checkboxalign</label>
+                            <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainer.flexforms.checkboxalign</label>
                             <config>
                                 <type>check</type>
                                 <default>0</default>
@@ -25,7 +25,7 @@
 <!--
                     <backgroundimage type="array">
                         <TCEforms type="array">
-                            <label>LLL:EXT:icaros/Resources/Private/Language/backend.xlf:gridelements.GridContainer.flexforms.backgroundimage</label>
+                            <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainer.flexforms.backgroundimage</label>
                             <config type="array">
                                 <type>inline</type>
                                 <maxitems>1</maxitems>

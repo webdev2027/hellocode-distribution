@@ -3,11 +3,11 @@
 #  * info          main navigation at header
 #  *
 #  *
-#  * url			icaros.com
-#  * client         icaros
+#  * url			hellotypo3.de
+#  * client         hellotypo3
 #  * date           18-08-10
 #  *
-#  * author         ssa :: hello@hellocode.de
+#  * author         ssa :: hello@hellotypo3.de
 #  *
 #  * ========================================================================== */
 # /* ==========================================================================
@@ -19,7 +19,7 @@
 #  * client         renosan munich
 #  * date           16-06-15
 #  *
-#  * author         ssa :: hello@hellocode.de
+#  * author         ssa :: hello@hellotypo3.de
 #  *
 #  * ========================================================================== */
 lib.navMobile = COA

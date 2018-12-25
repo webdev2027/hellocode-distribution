@@ -3,11 +3,11 @@
 #  * info          TYPO3 Fluidtemplate / page configuration
 #  *
 #  *
-#  * url			icaros.com
-#  * client         icaros
+#  * url			hellotypo3.de
+#  * client         hellotypo3
 #  * date           18-08-10
 #  *
-#  * author         ssa :: hello@hellocode.de
+#  * author         ssa :: hello@hellotypo3.de
 #  *
 #  * ========================================================================== */
 page = PAGE
@@ -30,7 +30,7 @@ page {
 
 
 	// favicon, see root and headerData.ts
-    //shortcutIcon = EXT:icaros/Resources/Public/Icons/favicon.ico
+    //shortcutIcon = EXT:hellotypo3/Resources/Public/Icons/favicon.ico
 
     // Fluid template
     10 = FLUIDTEMPLATE

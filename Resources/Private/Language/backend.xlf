@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" product-name="icaros" date="2015-04-27T10:11:30+02:00">
+	<file source-language="en" datatype="plaintext" original="messages" product-name="hellotypo3" date="2015-04-27T10:11:30+02:00">
 		<header/>
 		<body>
 
             <!-- BACKEND LAYOUTS -->
 			<trans-unit id="backend_layout.default.title">
-				<source>[ ICAROS ] Default Template</source>
+				<source>[ hellotypo3 ] Default Template</source>
 			</trans-unit>
 			<trans-unit id="backend_layout.default.main">
 				<source>Content area</source>
@@ -18,7 +18,7 @@
 
 
 			<trans-unit id="backend_layout.subpage.title">
-				<source>[ ICAROS ] Subpage Template with Anchor Menu</source>
+				<source>[ hellotypo3 ] Subpage Template with Anchor Menu</source>
 			</trans-unit>
 			<trans-unit id="backend_layout.subpage.bigimage">
 				<source>Image</source>
@@ -244,7 +244,7 @@
 
             <!-- tx_news -->
 			<trans-unit id="tx_news.template.100">
-				<source>ICAROS Experiences List View</source>
+				<source>hellotypo3 Experiences List View</source>
 			</trans-unit>
 		</body>
 	</file>

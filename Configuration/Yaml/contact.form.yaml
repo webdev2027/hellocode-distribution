@@ -8,10 +8,10 @@ prototypeName: standard
 finishers:
   -
     options:
-      subject: 'ICAROS contact form'
-      recipientAddress: sajok@hellocode.de
-      recipientName: ICAROS
-      senderAddress: no-reply@icaros.com
+      subject: 'hellotypo3 contact form'
+      recipientAddress: sajok@hellotypo3.de
+      recipientName: hellotypo3
+      senderAddress: no-reply@hellotypo3.com
       senderName: '{text-1}'
       replyToAddress: ''
       carbonCopyAddress: ''
