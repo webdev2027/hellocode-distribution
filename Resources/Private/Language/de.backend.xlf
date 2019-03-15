@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" product-name="hellotypo3" date="2015-04-27T10:11:30+02:00">
+		<header/>
+		<body>
+
+            <!-- ########## CONSTANTS ########## -->
+			<trans-unit id="constants.siteName">
+				<target>Name der Website</target>
+			</trans-unit>
+			<trans-unit id="constants.defaultDescription">
+				<target>Seitenbeschreibung</target>
+			</trans-unit>
+			<trans-unit id="constants.navFooter">
+				<target><![CDATA[Ordner für die Fußzeile]]></target>
+			</trans-unit>
+			<trans-unit id="constants.navSocial">
+				<target><![CDATA[Ordner für die Social Links]]></target>
+			</trans-unit>
+
+
+
+            <!-- ########## BACKEND LAYOUTS ########## -->
+			<trans-unit id="backend_layout.default.title">
+				<target>[ hellotypo3 ] Homepage</target>
+			</trans-unit>
+			<trans-unit id="backend_layout.default.101">
+				<target>Seiteninhalt Homepage</target>
+			</trans-unit>
+			<trans-unit id="backend_layout.default.footer1">
+				<target>Fußzeile links</target>
+			</trans-unit>
+			<trans-unit id="backend_layout.default.footer2">
+				<target>Fußzeile mitte links</target>
+			</trans-unit>
+			<trans-unit id="backend_layout.default.footer3">
+				<target>Fußzeile mitte rechts</target>
+			</trans-unit>
+			<trans-unit id="backend_layout.default.footer4">
+				<target>Fußzeile rechts</target>
+			</trans-unit>
+
+
+
+			<trans-unit id="backend_layout.subpage.title">
+				<target>[ hellotypo3 ] Einfache Inhaltsseite</target>
+			</trans-unit>
+			<trans-unit id="backend_layout.subpage.101">
+				<target>Seiteninhalt Unterseite</target>
+			</trans-unit>
+
+
+
+
+
+
+            <!-- ########## GRIDELEMENTS : GridContainer ########## -->
+			<trans-unit id="gridelements.GridContainer.title">
+				<target>[ GRID ] Grid Container</target>
+			</trans-unit>
+			<trans-unit id="gridelements.GridContainer.description">
+				<target>Grid-Column</target>
+			</trans-unit>
+			<trans-unit id="gridelements.GridContainer.column">
+				<target>Content</target>
+			</trans-unit>
+
+			<trans-unit id="gridelements.GridContainer.flexforms.title">
+				<target>Options</target>
+			</trans-unit>
+			<trans-unit id="gridelements.GridContainer.flexforms.paddingtop">
+				<target>Padding Top</target>
+			</trans-unit>
+			<trans-unit id="gridelements.GridContainer.flexforms.paddingbottom">
+				<target>Padding Bottom</target>
+			</trans-unit>
+			<trans-unit id="gridelements.GridContainer.flexforms.backgroundcolor">
+				<target>Background Colour</target>
+			</trans-unit>
+			<trans-unit id="gridelements.GridContainer.flexforms.alignment">
+				<target>Textausrichtung</target>
+			</trans-unit>
+
+
+
+
+
+
+			<!-- ########## GRIDELEMENTS : GridTwoColumns ########## -->
+			<trans-unit id="gridelements.GridTwoColumns.title">
+				<target>[ GRID ] Grid-2-Spalten</target>
+			</trans-unit>
+			<trans-unit id="gridelements.GridTwoColumns.description">
+				<target>Grid-Element mit zwei Spalten</target>
+			</trans-unit>
+			<trans-unit id="gridelements.GridTwoColumns.Left">
+				<target>Left</target>
+			</trans-unit>
+			<trans-unit id="gridelements.GridTwoColumns.Right">
+				<target>Right</target>
+			</trans-unit>
+
+			<trans-unit id="gridelements.GridTwoColumns.flexforms.title">
+				<target>Split</target>
+			</trans-unit>
+			<trans-unit id="gridelements.GridTwoColumns.flexforms.label">
+				<target>Spaltenverteilung im 12er Grid</target>
+			</trans-unit>
+
+
+
+
+
+
+
+			<!-- ########## GRIDELEMENTS : GridThreeColumns ########## -->
+			<trans-unit id="gridelements.GridThreeColumns.title">
+				<target>[ GRID ] Grid-3-Spalten</target>
+			</trans-unit>
+			<trans-unit id="gridelements.GridThreeColumns.description">
+				<target>Grid-Element mit drei Spalten</target>
+			</trans-unit>
+			<trans-unit id="gridelements.GridThreeColumns.Left">
+				<target>Links</target>
+			</trans-unit>
+			<trans-unit id="gridelements.GridThreeColumns.Center">
+				<target>Mitte</target>
+			</trans-unit>
+			<trans-unit id="gridelements.GridThreeColumns.Right">
+				<target>Rechts</target>
+			</trans-unit>
+
+			<trans-unit id="gridelements.GridThreeColumns.flexforms.title">
+				<target>Teilung</target>
+			</trans-unit>
+			<trans-unit id="gridelements.GridThreeColumns.flexforms.label">
+				<target>Spalten im 12er Grid</target>
+			</trans-unit>
+
+
+
+
+
+
+
+			<!-- ########## GRIDELEMENTS : GridFourColumns ########## -->
+			<trans-unit id="gridelements.GridFourColumns.title">
+				<target>[ GRID ] Grid-4-Columns</target>
+			</trans-unit>
+			<trans-unit id="gridelements.GridFourColumns.description">
+				<target>Grid-Element with four columns (3-3-3-3)</target>
+			</trans-unit>
+			<trans-unit id="gridelements.GridFourColumns.One">
+				<target>One</target>
+			</trans-unit>
+			<trans-unit id="gridelements.GridFourColumns.Two">
+				<target>Two</target>
+			</trans-unit>
+			<trans-unit id="gridelements.GridFourColumns.Three">
+				<target>Three</target>
+			</trans-unit>
+			<trans-unit id="gridelements.GridFourColumns.Four">
+				<target>Four</target>
+			</trans-unit>
+
+			<trans-unit id="gridelements.GridFourColumns.flexforms.title">
+				<target>Split</target>
+			</trans-unit>
+			<trans-unit id="gridelements.GridFourColumns.flexforms.label">
+				<target>Columns</target>
+			</trans-unit>
+
+
+
+
+
+            <!-- ########## GRIDELEMENTS : GridContainerWrap ########## -->
+            <trans-unit id="gridelements.GridContainerWrap.title">
+                <target>[ GRID ] Outer Grid-Container</target>
+            </trans-unit>
+            <trans-unit id="gridelements.GridContainerWrap.description">
+                <target>Full width container with background color</target>
+            </trans-unit>
+            <trans-unit id="gridelements.GridContainerWrap.column">
+                <target>Content</target>
+            </trans-unit>
+
+            <trans-unit id="gridelements.GridContainerWrap.flexforms.title">
+                <target>Options</target>
+            </trans-unit>
+            <trans-unit id="gridelements.GridContainerWrap.flexforms.farbe">
+                <target>Background-Color</target>
+            </trans-unit>
+            <trans-unit id="gridelements.GridContainerWrap.flexforms.checkboxpaddingTop">
+                <target>No Padding Top</target>
+            </trans-unit>
+            <trans-unit id="gridelements.GridContainerWrap.flexforms.checkboxpaddingBottom">
+                <target>No Padding Bottom</target>
+            </trans-unit>
+            <trans-unit id="gridelements.GridContainerWrap.flexforms.checkboxalign">
+                <target>Align Center</target>
+            </trans-unit>
+
+
+
+
+
+
+            <!-- ########## CONSTANTS ########## -->
+            <trans-unit id="constants.siteName">
+				<target>Website Name</target>
+			</trans-unit>
+            <trans-unit id="constants.footerPid">
+				<target><![CDATA[Ordner für Info-Navigation in der Fußleiste]]></target>
+			</trans-unit>
+            <trans-unit id="constants.siteLanguages">
+				<target><![CDATA[Anzahl der Website-Sprachen, z.B. 0,1,2,3,...]]></target>
+			</trans-unit>
+
+
+
+
+
+
+            <!-- ########## ckEDITOR ########## -->
+            <trans-unit id="ckeditor.link_internal_titleText">
+				<target>Interner Link</target>
+			</trans-unit>
+            <trans-unit id="ckeditor.link_internal_blank_titleText">
+				<target>Interner Link im neuen Fenster</target>
+			</trans-unit>
+            <trans-unit id="ckeditor.link_external_titleText">
+				<target>Externer Link</target>
+			</trans-unit>
+            <trans-unit id="ckeditor.link_external_blank_titleText">
+				<target>Externer Link im neuen Fenster</target>
+			</trans-unit>
+
+            <trans-unit id="ckeditor.link_folder_titleText">
+				<target>Link zu einem Verzeichis</target>
+			</trans-unit>
+            <trans-unit id="ckeditor.link_download_titleText">
+				<target>Download-Link</target>
+			</trans-unit>
+            <trans-unit id="ckeditor.link_mail_titleText">
+				<target>Mail-Link</target>
+			</trans-unit>
+
+            <trans-unit id="ckeditor.link_primarybutton_titleText">
+				<target>Button black</target>
+			</trans-unit>
+            <trans-unit id="ckeditor.link_warningbutton_titleText">
+				<target>Button orange</target>
+			</trans-unit>
+            <trans-unit id="ckeditor.link_hollowbutton_titleText">
+				<target>Button clear</target>
+			</trans-unit>
+
+
+
+
+            <!-- ########## TCEFORM ########## -->
+            <trans-unit id="tceform.header.0">
+				<target>Headline h2 blau</target>
+			</trans-unit>
+            <trans-unit id="tceform.header.1">
+				<target>Headline h1 [ Nur einmal pro Seite verwenden ]</target>
+			</trans-unit>
+            <trans-unit id="tceform.header.2">
+				<target>Headline 2</target>
+			</trans-unit>
+            <trans-unit id="tceform.header.3">
+				<target>Headline h3 weiß</target>
+			</trans-unit>
+            <trans-unit id="tceform.header.4">
+				<target>Headline h3 weiß</target>
+			</trans-unit>
+            <trans-unit id="tceform.header.5">
+				<target>Sprungmarke für Navigation</target>
+			</trans-unit>
+            <trans-unit id="tceform.header.hidden">
+				<target>Nicht anzeigen</target>
+			</trans-unit>
+            <trans-unit id="tceform.header.6">
+				<target>Headline h6</target>
+			</trans-unit>
+
+
+
+            <trans-unit id="tceform.layout.0">
+				<target>Standard</target>
+			</trans-unit>
+            <trans-unit id="tceform.layout.1">
+				<target>Hide Headline in Anchor Menu</target>
+			</trans-unit>
+            <trans-unit id="tceform.layout.2">
+				<target>Layout 2</target>
+			</trans-unit>
+            <trans-unit id="tceform.layout.3">
+				<target>Layout 3</target>
+			</trans-unit>
+
+
+
+            <trans-unit id="tceform.frame_class.0">
+				<target>Standard</target>
+			</trans-unit>
+            <trans-unit id="tceform.frame_class.1">
+				<target>Rahmen 2</target>
+			</trans-unit>
+
+            <trans-unit id="tceform.frame_class.own1">
+				<target>Callout</target>
+			</trans-unit>
+
+
+
+            <!-- ########## EXT:tx_news ########## -->
+			<trans-unit id="tx_news.template.100">
+				<target>hellotypo3 Experiences List View</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

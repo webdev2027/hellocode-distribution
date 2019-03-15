@@ -5,25 +5,16 @@
 		<body>
 
             <!-- TEMPLATES & PARTIALS -->
-			<trans-unit id="partial.newsletter.header">
-				<source>SUBSCRIBE TO hellotypo3 NEWSLETTER</source>
+			<trans-unit id="partial.header.backtohome">
+				<source>Back to Home</source>
 			</trans-unit>
-			<trans-unit id="partial.newsletter.text">
-				<source><![CDATA[Your email address is only used for sending you hellotypo3 newsletters.<br>
-				Subscription can be cancelled at any time. For more information please check our  privacy policy.]]></source>
-			</trans-unit>
-			<trans-unit id="partial.newsletter.placeholder">
-				<source>Please insert your email address for our newsletter</source>
-			</trans-unit>
-			<trans-unit id="partial.newsletter.submit">
-				<source>Submit</source>
-			</trans-unit>
+
 
 
 
 
             <!-- MASK ELEMENTS -->
-			<trans-unit id="mask.imageslider.textbutton">
+			<trans-unit id="mask.card.linktext">
 				<source>Read more</source>
 			</trans-unit>
 

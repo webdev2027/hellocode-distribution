@@ -1,0 +1,58 @@
+<f:switch expression="{data.flexform_columns}">
+
+    <f:case value="84">
+        <div id="c{data.uid}" class="gridelement row">
+            <div class="col-md-8">
+                <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
+            </div>
+            <div class="col-md-4">
+                <f:format.raw>{data.tx_gridelements_view_columns.1002}</f:format.raw>
+            </div>
+        </div>
+    </f:case>
+
+    <f:case value="48">
+        <div id="c{data.uid}" class="gridelement row">
+            <div class="col-md-4">
+                <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
+            </div>
+            <div class="col-md-8">
+                <f:format.raw>{data.tx_gridelements_view_columns.1002}</f:format.raw>
+            </div>
+        </div>
+    </f:case>
+
+    <f:case value="75">
+        <div id="c{data.uid}" class="gridelement row">
+            <div class="col-md-7">
+                <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
+            </div>
+            <div class="col-md-5">
+                <f:format.raw>{data.tx_gridelements_view_columns.1002}</f:format.raw>
+            </div>
+        </div>
+    </f:case>
+
+    <f:case value="57">
+        <div id="c{data.uid}" class="gridelement row">
+            <div class="col-md-5">
+                <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
+            </div>
+            <div class="col-md-7">
+                <f:format.raw>{data.tx_gridelements_view_columns.1002}</f:format.raw>
+            </div>
+        </div>
+    </f:case>
+
+    <f:defaultCase>
+        <div id="c{data.uid}" class="gridelement row">
+            <div class="col-md-6">
+                <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
+            </div>
+            <div class="col-md-6">
+                <f:format.raw>{data.tx_gridelements_view_columns.1002}</f:format.raw>
+            </div>
+        </div>
+    </f:defaultCase>
+
+</f:switch>

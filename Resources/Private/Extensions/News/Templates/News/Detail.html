@@ -1,0 +1,104 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:n="http://typo3.org/ns/GeorgRinger/News/ViewHelpers"
+      xmlns:rx="http://typo3.org/ns/Reelworx/RxShariff/ViewHelper"
+      data-namespace-typo3-fluid="true">
+
+<f:layout name="Detail" />
+
+<!--
+	=====================
+		EXT:###/Resources/Private/Extensions/News/Templates/News/Detail.html
+-->
+
+<f:section name="content">
+    <f:if condition="{newsItem}">
+        <f:then>
+
+            <f:if condition="{settings.detail.showPrevNext}">
+                <n:simplePrevNext pidList="{newsItem.pid}" news="{newsItem}" as="paginated" sortField="datetime">
+                    <f:if condition="{paginated}">
+                        <ul class="pager">
+                            <f:if condition="{paginated.prev}">
+                                <li class="previous">
+                                    <n:link newsItem="{paginated.prev}" settings="{settings}">
+                                        <span aria-hidden="true">&larr; </span>{paginated.prev.title}
+                                    </n:link>
+                                </li>
+                            </f:if>
+                            <f:if condition="{paginated.next}">
+                                <li class="next">
+                                    <n:link newsItem="{paginated.next}" settings="{settings}" class="next">
+                                        {paginated.next.title} <span aria-hidden="true"> &rarr;</span>
+                                    </n:link>
+                                </li>
+                            </f:if>
+                        </ul>
+                    </f:if>
+                </n:simplePrevNext>
+            </f:if>
+
+
+
+            <h2>{newsItem.title}</h2>
+
+
+            <div class="news-meta-info">
+                <p>
+                    <span class="news-list-date">
+						<f:format.date format="{f:translate(key:'dateFormat')}">{newsItem.datetime}</f:format.date>
+					</span>
+
+                    <f:if condition="{newsItem.categories}">
+                        <f:render partial="Category/Items" arguments="{categories:newsItem.categories, settings:settings}" />
+                    </f:if>
+
+                    <f:if condition="{newsItem.relatedFiles}">
+                        <!--span> &#9674; <f:translate key="related-files" />: </span-->
+                        &nbsp;&#9674;&nbsp;
+                        <f:for each="{newsItem.relatedFiles}" as="relatedFile">
+
+                            <span class="news-related-files-link">
+                                <a href="{relatedFile.originalResource.publicUrl -> f:format.htmlspecialchars()}" target="_blank">
+                                    {f:if(condition:relatedFile.originalResource.title, then:relatedFile.originalResource.title, else:relatedFile.originalResource.name)}
+                                </a>
+                            </span>
+
+                        </f:for>
+
+                    </f:if>
+                </p>
+            </div>
+
+            <div class="news-content">
+                <n:renderMedia news="{newsItem}" imgClass="img-fluid" videoClass="video-wrapper" audioClass="audio-wrapper">
+                    <f:render partial="Detail/MediaContainer" arguments="{media: newsItem.mediaNonPreviews, settings:settings}" />
+
+                    <div class="news-text-wrap">
+                        <f:format.html>{newsItem.bodytext}</f:format.html>
+                    </div>
+                </n:renderMedia>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <f:if condition="{settings.backPid}">
+
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+
+                        <f:link.page pageUid="{settings.backPid}" class="btn btn-lg btn-primary">
+                            <f:translate key="back-link" />
+                        </f:link.page>
+
+                    </div>
+                </div>
+
+            </f:if>
+
+        </f:then>
+        <f:else>
+
+        </f:else>
+    </f:if>
+</f:section>
+</html>

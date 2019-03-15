@@ -22,7 +22,7 @@ plugin.tx_news {
         layoutRootPaths {
             100 = {$extensionsRoot}News/Layouts/
         }
-        widget.GeorgRinger\News\ViewHelpers\Widget\PaginateViewHelper.templateRootPath = EXT:hellotypo3/Resources/Private/Extensions/News/Templates/
+        //widget.GeorgRinger\News\ViewHelpers\Widget\PaginateViewHelper.templateRootPath = EXT:hellotypo3/Resources/Private/Extensions/News/Templates/
     }
 
 
@@ -47,7 +47,7 @@ plugin.tx_news {
     settings {
         displayDummyIfNoMedia = 1
         //crop teaser text after x characters
-        cropMaxCharacters = 120
+        cropMaxCharacters = 90
 
         detail {
             errorHandling = pageNotFoundHandler
@@ -77,12 +77,12 @@ plugin.tx_news {
         list {
             media {
                 image {
-                    maxWidth = 200
-                    maxHeight = 200
-                    width = 570c
-                    height = 350c
+                    maxWidth = 690
+                    maxHeight = 400
+                    //width = 570c
+                    //height = 400c
                 }
-                dummyImage = typo3conf/ext/hellotypo3/Resources/Public/Images/Logos/logo_news_dummy.png
+                //dummyImage = EXT:hellotypo3/Resources/Public/images/pbc/logo/news_dummy_605x400.png
             }
 
 

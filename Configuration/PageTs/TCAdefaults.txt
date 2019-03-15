@@ -1,6 +1,3 @@
-#################
-#### TCAdefaults ####
-#################
 TCAdefaults {
 
 	tt_content {
@@ -13,4 +10,4 @@ TCAdefaults {
 
 	}
 
-} ### TCAdefaults
+}

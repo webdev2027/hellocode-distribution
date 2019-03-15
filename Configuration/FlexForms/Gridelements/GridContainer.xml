@@ -11,7 +11,123 @@
                 </TCEforms>
                 <el type="array">
 
+                    <paddingtop type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainer.flexforms.paddingtop</label>
+                            <config type="array">
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">0</numIndex>
+                                        <numIndex index="1">pt0</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">20</numIndex>
+                                        <numIndex index="1">pt20</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">40</numIndex>
+                                        <numIndex index="1">pt40</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">60</numIndex>
+                                        <numIndex index="1">pt60</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">80</numIndex>
+                                        <numIndex index="1">pt80</numIndex>
+                                    </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <numIndex index="0">100</numIndex>
+                                        <numIndex index="1">pt100</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </paddingtop>
 
+                    <paddingbottom type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainer.flexforms.paddingbottom</label>
+                            <config type="array">
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">0</numIndex>
+                                        <numIndex index="1">pb0</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">20</numIndex>
+                                        <numIndex index="1">pb20</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">40</numIndex>
+                                        <numIndex index="1">pb40</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">60</numIndex>
+                                        <numIndex index="1">pb60</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">80</numIndex>
+                                        <numIndex index="1">pb80</numIndex>
+                                    </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <numIndex index="0">100</numIndex>
+                                        <numIndex index="1">pb100</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </paddingbottom>
+
+                    <colunwidth type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainer.flexforms.colunwidth</label>
+                            <config type="array">
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">100% [ 12 ]</numIndex>
+                                        <numIndex index="1">col-md-12</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">80% [ 10 ]</numIndex>
+                                        <numIndex index="1">col-md-10</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">70% [ 8 ]</numIndex>
+                                        <numIndex index="1">col-md-8</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">50% [ 6 ]</numIndex>
+                                        <numIndex index="1">col-md-6</numIndex>
+                                    </numIndex>
+
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </colunwidth>
+
+                    <alignment type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainer.flexforms.alignment</label>
+                            <config type="array">
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">Alignment Center</numIndex>
+                                        <numIndex index="1">text-center</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">Alignment Left</numIndex>
+                                        <numIndex index="1">text-left</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </alignment>
+<!--
                     <checkboxalign>
                         <TCEforms>
                             <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainer.flexforms.checkboxalign</label>
@@ -22,7 +138,9 @@
                         </TCEforms>
                     </checkboxalign>
 
-<!--
+
+
+
                     <backgroundimage type="array">
                         <TCEforms type="array">
                             <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainer.flexforms.backgroundimage</label>

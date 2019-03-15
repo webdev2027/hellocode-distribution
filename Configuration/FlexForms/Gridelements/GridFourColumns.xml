@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+    <meta type="array">
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <general>
+            <ROOT type="array">
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridFourColumns.flexforms.title</sheetTitle>
+                </TCEforms>
+                <el type="array">
+                    <columns type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridFourColumns.flexforms.label</label>
+                            <config type="array">
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">3-3-3-3</numIndex>
+                                        <numIndex index="1">3333</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </columns>
+                </el>
+            </ROOT>
+        </general>
+    </sheets>
+</T3DataStructure>

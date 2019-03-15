@@ -1,70 +1,94 @@
-### provider ext.
-plugin.tx_hellotypo3.view {
-	templateRootPaths.0 = EXT:hellotypo3/Resources/Private/Templates/
-	partialRootPaths.0 = EXT:hellotypo3/Resources/Private/Partials/
-	layoutRootPaths.0 = EXT:hellotypo3/Resources/Private/Layouts/
+### fluid styled content
+### IS NOT WORKING ?? <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/constants.typoscript">
+
+### typoscript main template constants
+styles.content {
+    defaultHeaderType = 2
+    allowTags:= addToList(iframe)
+
+    textmedia {
+        maxW = 650
+        maxWInText = 300
+        columnSpacing = 8
+        rowSpacing = 8
+        textMargin = 16
+        borderWidth = 8
+        borderPadding = 4
+
+        image{
+            small = 480
+            medium = 960
+            large = 1280
+        }
+
+        borderColor = #000
+        borderWidth = 1
+        borderPadding = 0
+
+        linkWrap {
+            width = 1200m
+            height = 1200
+            newWindow = 0
+            lightboxEnabled = 1
+            lightboxCssClass = lightbox
+            lightboxDataAttribute = lb-{current}
+        }
+    }
+
+    links {
+        target =
+        extTarget = _blank
+        keep = path
+    }
 }
+
 
 ### own variables
 myTemplateRootPath      = EXT:hellotypo3/Resources/Private/Templates/
 myPartialRootPath       = EXT:hellotypo3/Resources/Private/Partials/
 myLayoutRootPath        = EXT:hellotypo3/Resources/Private/Layouts/
 
+/*
+path {
+    public = typo3conf/ext/hellotypo3/Resources/Public
+    private = typo3conf/ext/hellotypo3/Resources/Private
+    config = typo3conf/ext/hellotypo3/Configuration
+}
+*/
 
 ### third party extension path
 extensionsRoot          = EXT:hellotypo3/Resources/Private/Extensions/
 
+
 ### publicPathExt
 publicPathExt           = EXT:hellotypo3/Resources/Public/
 
+
 ### publicPath StyleSheets
-publicPathStyleSheets   = EXT:hellotypo3/Resources/Public/Css/
+publicPathStyleSheets   = EXT:hellotypo3/Resources/Public/css/
 
 ### publicPath JavaScript
-publicPathJavaScript    = EXT:hellotypo3/Resources/Public/JavaScripts/
+publicPathJavaScript    = EXT:hellotypo3/Resources/Public/js/
 
 ### publicPath Images
-publicPathImages        = EXT:hellotypo3/Resources/Public/Images/
+publicPathImages        = EXT:hellotypo3/Resources/Public/images/
 
 ### publicPath Fonts
-publicPathFonts         = EXT:hellotypo3/Resources/Public/Fonts/
+publicPathFonts         = EXT:hellotypo3/Resources/Public/fonts/
+
 
 
 
 ### edit constants via backend
 
 # cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.siteName
-siteName = hellotypo3
+siteName = PBC 2019
 
 # cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:defaultDescription
 #defaultDescription =
 
-# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.navQuicklinkFolder
-navQuicklinkFolder = 13
+# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.navCopyright
+navCopyright = 2
 
-# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.navInfo
-navInfo = 12
-
-
-# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.navTop
-navTop = 24
-
-
-
-# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.socialFacebook
-socialFacebook = 20
-# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.socialLinkedin
-socialLinkedin = 22
-# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.socialInstagram
-socialInstagram = 23
-# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.socialTwitter
-socialTwitter = 21
-
-
-
-# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.top1
-top1 = 25
-# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.top2
-top2 = 26
-# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.top3
-top3 = 27
+# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.navSocial
+navSocial = 9

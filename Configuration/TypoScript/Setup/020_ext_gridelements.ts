@@ -5,7 +5,7 @@
 #  *
 #  * url			hellotypo3.de
 #  * client         hellotypo3
-#  * date           18-08-10
+#  * date           19-03-08
 #  *
 #  * author         ssa :: hello@hellotypo3.de
 #  *
@@ -30,6 +30,14 @@ tt_content {
         20 {
             10 {
                 setup {
+                    GridSection < lib.gridelements.defaultGridSetup
+                    GridSection {
+                        cObject = FLUIDTEMPLATE
+                        cObject {
+                            file = {$extensionsRoot}Gridelements/GridSection.html
+                        }
+                    }
+
                     GridContainer < lib.gridelements.defaultGridSetup
                     GridContainer {
                         cObject = FLUIDTEMPLATE
@@ -38,11 +46,29 @@ tt_content {
                         }
                     }
 
+
                     GridTwoColumns < lib.gridelements.defaultGridSetup
                     GridTwoColumns {
                         cObject = FLUIDTEMPLATE
                         cObject {
                             file = {$extensionsRoot}Gridelements/GridTwoColumns.html
+                        }
+                    }
+
+
+                    GridThreeColumns < lib.gridelements.defaultGridSetup
+                    GridThreeColumns {
+                        cObject = FLUIDTEMPLATE
+                        cObject {
+                            file = {$extensionsRoot}Gridelements/GridThreeColumns.html
+                        }
+                    }
+/*
+                    GridFourColumns < lib.gridelements.defaultGridSetup
+                    GridFourColumns {
+                        cObject = FLUIDTEMPLATE
+                        cObject {
+                            file = {$extensionsRoot}Gridelements/GridFourColumns.html
                         }
                     }
 
@@ -53,6 +79,7 @@ tt_content {
                             file = {$extensionsRoot}Gridelements/GridContainerWrap.html
                         }
                     }
+                    */
 
                 }
             }

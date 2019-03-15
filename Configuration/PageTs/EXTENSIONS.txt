@@ -8,5 +8,5 @@ tx_news {
 	    100 = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tx_news.template.100
 	}
 
-	#predefine.archive = +60 days
+	predefine.archive = +90 days
 }

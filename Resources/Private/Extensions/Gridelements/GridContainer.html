@@ -1,0 +1,12 @@
+<div id="c{data.uid}" class="gridelement gridContainer d-flex align-items-center
+    {f:if(condition: data.flexform_paddingtop, then: '{data.flexform_paddingtop}')}
+    {f:if(condition: data.flexform_paddingbottom, then: '{data.flexform_paddingbottom}')}">
+    <div class="container">
+        <div class=" row">
+            <div class="{f:if(condition: data.flexform_colunwidth, then: '{data.flexform_colunwidth}')} mr-auto ml-auto
+            {f:if(condition: data.flexform_alignment, then: '{data.flexform_alignment}')}">
+                <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
+            </div>
+        </div>
+    </div>
+</div>

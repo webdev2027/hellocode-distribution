@@ -4,37 +4,98 @@
 		<header/>
 		<body>
 
-            <!-- BACKEND LAYOUTS -->
+            <!-- ########## CONSTANTS ########## -->
+			<trans-unit id="constants.siteName">
+				<source>Name of Website</source>
+			</trans-unit>
+			<trans-unit id="constants.defaultDescription">
+				<source>Standard Meta Description</source>
+			</trans-unit>
+			<trans-unit id="constants.navFooter">
+				<source>Folder footer menu</source>
+			</trans-unit>
+			<trans-unit id="constants.navSocial">
+				<source>Folder social menu</source>
+			</trans-unit>
+
+
+            <!-- ########## BACKEND LAYOUTS ########## -->
 			<trans-unit id="backend_layout.default.title">
 				<source>[ hellotypo3 ] Default Template</source>
 			</trans-unit>
-			<trans-unit id="backend_layout.default.main">
-				<source>Content area</source>
+			<trans-unit id="backend_layout.default.101">
+				<source>Page Content</source>
 			</trans-unit>
-			<trans-unit id="backend_layout.default.newsletter">
-				<source>Newsletter Subscription</source>
+			<trans-unit id="backend_layout.default.footer1">
+				<source>Footer outer left</source>
 			</trans-unit>
-
+			<trans-unit id="backend_layout.default.footer2">
+				<source>Footer left</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.default.footer3">
+				<source>Footer right</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.default.footer4">
+				<source>Footer outer right</source>
+			</trans-unit>
 
 
 			<trans-unit id="backend_layout.subpage.title">
-				<source>[ hellotypo3 ] Subpage Template with Anchor Menu</source>
+				<source>[ hellotypo3 ] Subpage Template</source>
 			</trans-unit>
-			<trans-unit id="backend_layout.subpage.bigimage">
-				<source>Image</source>
-			</trans-unit>
-			<trans-unit id="backend_layout.subpage.main">
-				<source>Content area with anchor menu</source>
+			<trans-unit id="backend_layout.subpage.101">
+				<source>Page Content</source>
 			</trans-unit>
 
 
 
-            <!-- GRIDELEMENTS : GridContainer -->
+
+
+
+            <!-- ########## GRIDELEMENTS : GridSection ########## -->
+			<trans-unit id="gridelements.GridSection.title">
+				<source>[ GRID ] Grid Section</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridSection.description">
+				<source>Grid-Section for Homepage Section and Anchor Menu</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridSection.column">
+				<source>Content</source>
+			</trans-unit>
+
+			<trans-unit id="gridelements.GridSection.flexforms.title">
+				<source>Options</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridSection.flexforms.paddingtop">
+				<source>Padding Top</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridSection.flexforms.paddingbottom">
+				<source>Padding Bottom</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridSection.flexforms.parallax">
+				<source>Parallax Effect</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridSection.flexforms.fullscreen">
+				<source>Fullscreen [ Only for Parallax! ]</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridSection.flexforms.parallaxoverlay">
+				<source>Image Overlay [ Only for Parallax! ]</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridSection.flexforms.backgroundparallax">
+				<source>Background Image [ Only for Parallax! ]</source>
+			</trans-unit>
+
+
+
+
+
+
+            <!-- ########## GRIDELEMENTS : GridContainer ########## -->
 			<trans-unit id="gridelements.GridContainer.title">
-				<source>[ GRID ] Inner Grid-Container</source>
+				<source>[ GRID ] Grid Container</source>
 			</trans-unit>
 			<trans-unit id="gridelements.GridContainer.description">
-				<source>Grid-Column</source>
+				<source>Grid-Container</source>
 			</trans-unit>
 			<trans-unit id="gridelements.GridContainer.column">
 				<source>Content</source>
@@ -43,26 +104,33 @@
 			<trans-unit id="gridelements.GridContainer.flexforms.title">
 				<source>Options</source>
 			</trans-unit>
-			<trans-unit id="gridelements.GridContainer.flexforms.checkboxalign">
-				<source>Align Center</source>
+			<trans-unit id="gridelements.GridContainer.flexforms.paddingtop">
+				<source>Padding Top</source>
 			</trans-unit>
-			<trans-unit id="gridelements.GridContainer.flexforms.checkboxpadding">
-				<source>No Padding-Top</source>
+			<trans-unit id="gridelements.GridContainer.flexforms.paddingbottom">
+				<source>Padding Bottom</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridContainer.flexforms.backgroundcolor">
+				<source>Background Colour</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridContainer.flexforms.colunwidth">
+				<source>Column Width</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridContainer.flexforms.alignment">
+				<source>Alignment</source>
 			</trans-unit>
 
 
-			<trans-unit id="gridelements.GridContainer.flexforms.backgroundimage">
-				<source>Background-Image</source>
-			</trans-unit>
 
 
 
-			<!-- GRIDELEMENTS : GridTwoColumns -->
+
+			<!-- ########## GRIDELEMENTS : GridTwoColumns ########## -->
 			<trans-unit id="gridelements.GridTwoColumns.title">
 				<source>[ GRID ] Grid-2-Columns</source>
 			</trans-unit>
 			<trans-unit id="gridelements.GridTwoColumns.description">
-				<source>Grid-Element with two columns (50:50, 70:30, 30:70)</source>
+				<source>Grid-Element with two columns</source>
 			</trans-unit>
 			<trans-unit id="gridelements.GridTwoColumns.Left">
 				<source>Left</source>
@@ -75,11 +143,77 @@
 				<source>Split</source>
 			</trans-unit>
 			<trans-unit id="gridelements.GridTwoColumns.flexforms.label">
+				<source>Columns [ Grid 12 ]</source>
+			</trans-unit>
+
+
+
+
+
+
+
+			<!-- ########## GRIDELEMENTS : GridThreeColumns ########## -->
+			<trans-unit id="gridelements.GridThreeColumns.title">
+				<source>[ GRID ] Grid-3-Columns</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridThreeColumns.description">
+				<source>Grid-Element with three columns</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridThreeColumns.Left">
+				<source>Left</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridThreeColumns.Center">
+				<source>Center</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridThreeColumns.Right">
+				<source>Right</source>
+			</trans-unit>
+
+			<trans-unit id="gridelements.GridThreeColumns.flexforms.title">
+				<source>Split</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridThreeColumns.flexforms.label">
+				<source>Columns [ Grid 12 ]</source>
+			</trans-unit>
+
+
+
+
+
+
+
+			<!-- ########## GRIDELEMENTS : GridFourColumns ########## -->
+			<trans-unit id="gridelements.GridFourColumns.title">
+				<source>[ GRID ] Grid-4-Columns</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridFourColumns.description">
+				<source>Grid-Element with four columns (3-3-3-3)</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridFourColumns.One">
+				<source>One</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridFourColumns.Two">
+				<source>Two</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridFourColumns.Three">
+				<source>Three</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridFourColumns.Four">
+				<source>Four</source>
+			</trans-unit>
+
+			<trans-unit id="gridelements.GridFourColumns.flexforms.title">
+				<source>Split</source>
+			</trans-unit>
+			<trans-unit id="gridelements.GridFourColumns.flexforms.label">
 				<source>Columns</source>
 			</trans-unit>
 
 
-            <!-- GRIDELEMENTS : GridContainerWrap -->
+
+
+
+            <!-- ########## GRIDELEMENTS : GridContainerWrap ########## -->
             <trans-unit id="gridelements.GridContainerWrap.title">
                 <source>[ GRID ] Outer Grid-Container</source>
             </trans-unit>
@@ -111,45 +245,23 @@
 
 
 
-            <!-- CONSTANTS -->
+            <!-- ########## CONSTANTS ########## -->
             <trans-unit id="constants.siteName">
 				<source>Website Name</source>
 			</trans-unit>
-            <trans-unit id="constants.navQuicklinkFolder">
-				<source><![CDATA[Ordner für die Schnellzugriffe in der Fußleiste]]></source>
-			</trans-unit>
-            <trans-unit id="constants.navInfo">
+            <trans-unit id="constants.footerPid">
 				<source><![CDATA[Ordner für Info-Navigation in der Fußleiste]]></source>
 			</trans-unit>
-            <trans-unit id="constants.socialFacebook">
-				<source><![CDATA[Facebook]]></source>
-			</trans-unit>
-            <trans-unit id="constants.socialInstagram">
-				<source><![CDATA[Instagram]]></source>
-			</trans-unit>
-            <trans-unit id="constants.socialLinkedin">
-				<source><![CDATA[LinkedIn]]></source>
-			</trans-unit>
-            <trans-unit id="constants.socialTwitter">
-				<source><![CDATA[Twitter]]></source>
-			</trans-unit>
-            <trans-unit id="constants.navTop">
-				<source><![CDATA[Ordner für Navigation in der Kopfleiste rechts]]></source>
-			</trans-unit>
-            <trans-unit id="constants.top1">
-				<source>Top 1</source>
-			</trans-unit>
-            <trans-unit id="constants.top2">
-				<source>Top 2</source>
-			</trans-unit>
-            <trans-unit id="constants.top3">
-				<source>Top 3</source>
+            <trans-unit id="constants.siteLanguages">
+				<source><![CDATA[Anzahl der Website-Sprachen, z.B. 0,1,2,3,...]]></source>
 			</trans-unit>
 
 
 
 
-            <!-- ckEDITOR -->
+
+
+            <!-- ########## ckEDITOR ########## -->
             <trans-unit id="ckeditor.link_internal_titleText">
 				<source>Interner Link</source>
 			</trans-unit>
@@ -186,7 +298,7 @@
 
 
 
-            <!-- TCEFORM -->
+            <!-- ########## TCEFORM ########## -->
             <trans-unit id="tceform.header.0">
 				<source>Headline h2</source>
 			</trans-unit>
@@ -197,13 +309,13 @@
 				<source>Headline 2</source>
 			</trans-unit>
             <trans-unit id="tceform.header.3">
-				<source>Headline h3</source>
+				<source>Headline h3 blue</source>
 			</trans-unit>
             <trans-unit id="tceform.header.4">
-				<source>Headline h4 with horizontal line</source>
+				<source>Headline h3 white</source>
 			</trans-unit>
             <trans-unit id="tceform.header.5">
-				<source>Headline h5</source>
+				<source>Headline for Anchors</source>
 			</trans-unit>
             <trans-unit id="tceform.header.hidden">
 				<source>Hide</source>
@@ -242,7 +354,7 @@
 
 
 
-            <!-- tx_news -->
+            <!-- ########## EXT:tx_news ########## -->
 			<trans-unit id="tx_news.template.100">
 				<source>hellotypo3 Experiences List View</source>
 			</trans-unit>

@@ -1,4 +1,1 @@
-########################
-#### BACKENDLAYOUTS ####
-########################
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:hellotypo3/Configuration/PageTs/Mod/WebLayout/BackendLayouts" extensions="txt">

@@ -1,0 +1,7 @@
+<f:if condition="{menuBreadcrumb}">
+    <ol class="breadcrumb">
+        <f:for each="{menuBreadcrumb}" as="item">
+            <f:render partial="Navigation/Elements/ItemBreadcrumb" arguments="{item: item}"/>
+        </f:for>
+    </ol>
+</f:if>

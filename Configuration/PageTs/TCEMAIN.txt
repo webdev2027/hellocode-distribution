@@ -1,8 +1,12 @@
-#################
-#### TCEMAIN ####
-#################
+// Include via 'Configuration/TCA/Overrides/pages.php' and don't forget to insert at root page properties
+
 TCEMAIN {
 
+    ### https://docs.typo3.org/typo3cms/TSconfigReference/latest/PageTsconfig/TceMain.html?highlight=disablehideatcopy#clearcachecmd
+    ### Clear the cache for page uid 12 and 23 when saving a record in this page
+    #clearCacheCmd = 12, 23
+
+    ### https://docs.typo3.org/typo3cms/TSconfigReference/latest/PageTsconfig/TceMain.html?highlight=disablehideatcopy#permissions
     permissions {
         groupid = 2
         user = show, editcontent, edit, new, delete
@@ -10,6 +14,8 @@ TCEMAIN {
         everybody =
     }
 
+
+    ### https://docs.typo3.org/typo3cms/TSconfigReference/latest/PageTsconfig/TceMain.html?highlight=disablehideatcopy#disablehideatcopy
     table {
     	pages {
     		### dont't show "(Kopie 1)", if a content element was copied
@@ -27,4 +33,4 @@ TCEMAIN {
     		disableHideAtCopy = 1
     	}
     }
-} ### TCEMAIN
+}

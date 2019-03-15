@@ -5,6 +5,36 @@ tx_gridelements {
 
     setup {
 
+      GridSection {
+
+        title = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridSection.title
+        description = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridSection.description
+
+        #icon = EXT:example_extension/Resources/Public/Images/BackendLayouts/default.gif
+        frame = 3
+
+        flexformDS = FILE:EXT:hellotypo3/Configuration/FlexForms/Gridelements/GridSection.xml
+
+        config {
+
+            colCount = 1
+            rowCount = 1
+            rows {
+              1 {
+                columns {
+                  1 {
+                    name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridSection.Column
+                    colPos = 1001
+                  }
+                }
+              }
+            }
+
+        }
+
+      } // gridelement GridSection
+
+
       GridContainer {
 
         title = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainer.title
@@ -72,26 +102,34 @@ tx_gridelements {
 
 
 
-      GridContainerWrap {
+      GridThreeColumns {
 
-        title = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainerWrap.title
-        description = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainerWrap.description
+        title = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridThreeColumns.title
+        description = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridThreeColumns.description
 
         #icon = EXT:example_extension/Resources/Public/Images/BackendLayouts/default.gif
-        frame = 3
+        frame = 2
 
-        flexformDS = FILE:EXT:hellotypo3/Configuration/FlexForms/Gridelements/GridContainerWrap.xml
+        flexformDS = FILE:EXT:hellotypo3/Configuration/FlexForms/Gridelements/GridThreeColumns.xml
 
         config {
 
-            colCount = 1
+            colCount = 3
             rowCount = 1
             rows {
               1 {
                 columns {
                   1 {
-                    name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainerWrap.Column
+                    name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridThreeColumns.Left
                     colPos = 1001
+                  }
+                  2 {
+                    name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridThreeColumns.Center
+                    colPos = 1002
+                  }
+                  3 {
+                    name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridThreeColumns.Right
+                    colPos = 1003
                   }
                 }
               }
@@ -99,7 +137,50 @@ tx_gridelements {
 
         }
 
-      } // gridelement GridContainerWrap
+      } // gridelement GridThreeColumns
 
+/* /////////////////////////////////////////////////////////////////////////////////
+
+      GridFourColumns {
+
+        title = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridFourColumns.title
+        description = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridFourColumns.description
+
+        #icon = EXT:example_extension/Resources/Public/Images/BackendLayouts/default.gif
+        frame = 4
+
+        flexformDS = FILE:EXT:hellotypo3/Configuration/FlexForms/Gridelements/GridFourColumns.xml
+
+        config {
+
+            colCount = 4
+            rowCount = 1
+            rows {
+              1 {
+                columns {
+                  1 {
+                    name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridFourColumns.One
+                    colPos = 1001
+                  }
+                  2 {
+                    name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridFourColumns.Two
+                    colPos = 1002
+                  }
+                  3 {
+                    name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridFourColumns.Three
+                    colPos = 1003
+                  }
+                  4 {
+                    name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridFourColumns.Four
+                    colPos = 1004
+                  }
+                }
+              }
+            }
+
+        }
+
+      } // gridelement GridFourColumns
+*/  /////////////////////////////////////////////////////////////////////////////////
     }
 }

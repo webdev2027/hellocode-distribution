@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" product-name="hellotypo3" date="2018-08-30T10:11:30+02:00">
+		<header/>
+		<body>
+
+            <!-- TEMPLATES & PARTIALS -->
+			<trans-unit id="partial.header.backtohome">
+				<target>Zurück zur Startseite</target>
+			</trans-unit>
+
+
+
+            <!-- MASK ELEMENTS -->
+			<trans-unit id="mask.card.linktext">
+				<target>Read more</target>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

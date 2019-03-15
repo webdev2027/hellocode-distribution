@@ -1,0 +1,85 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:n="http://typo3.org/ns/GeorgRinger/News/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+<!--
+	=====================
+		EXT:###/Resources/Private/Extensions/News/Partials/List/Item.html
+-->
+
+
+<div class="col-lg-4 mb20 wow fadeInUp newsArticle newsType-{newsItem.type} {f:if(condition: newsItem.istopnews, then: ' topnews')}" data-wow-delay=".{iterator.cycle/2}s">
+
+    <n:excludeDisplayedNews newsItem="{newsItem}"/>
+
+    <div class="entry-card">
+
+        <f:if condition="{newsItem.mediaPreviews}">
+
+            <f:then>
+                <div class="news-img-wrap">
+                    <n:link newsItem="{newsItem}" settings="{settings}" title="{newsItem.title}">
+                        <f:alias map="{mediaElement: newsItem.mediaPreviews.0}">
+                            <f:if condition="{mediaElement.originalResource.type} == 2">
+                                <f:image image="{mediaElement}" title="{mediaElement.originalResource.title}"
+                                         alt="{mediaElement.originalResource.alternative}" class="img-fluid"
+                                         maxWidth="{f:if(condition: settings.media.maxWidth, then: settings.media.maxWidth, else: settings.list.media.image.maxWidth)}"
+                                         maxHeight="{f:if(condition: settings.media.maxHeight, then: settings.media.maxHeight, else: settings.list.media.image.maxHeight)}"/>
+                            </f:if>
+                            <f:if condition="{mediaElement.originalResource.type} == 4">
+                                <f:render partial="Detail/MediaVideo" arguments="{mediaElement: mediaElement}"/>
+                            </f:if>
+                            <f:if condition="{mediaElement.originalResource.type} == 5">
+                                <f:image image="{mediaElement}" title="{mediaElement.originalResource.title}"
+                                         alt="{mediaElement.originalResource.alternative}" class="img-fluid"
+                                         maxWidth="{f:if(condition: settings.media.maxWidth, then: settings.media.maxWidth, else: settings.list.media.image.maxWidth)}"
+                                         maxHeight="{f:if(condition: settings.media.maxHeight, then: settings.media.maxHeight, else: settings.list.media.image.maxHeight)}"/>
+                            </f:if>
+                        </f:alias>
+                    </n:link>
+                </div>
+            </f:then>
+            <f:else>
+                <f:if condition="{settings.displayDummyIfNoMedia}">
+                    <div class="news-img-wrap">
+                        <span class="no-media-element">
+                            <n:link newsItem="{newsItem}" settings="{settings}" title="{newsItem.title}">
+                                <f:image src="{settings.list.media.dummyImage}"
+                                         class="img-fluid" title="" alt=""
+                                         maxWidth="{f:if(condition: settings.media.maxWidth, then: settings.media.maxWidth, else: settings.list.media.image.maxWidth)}"
+                                         maxHeight="{f:if(condition: settings.media.maxHeight, then: settings.media.maxHeight, else: settings.list.media.image.maxHeight)}"/>
+                            </n:link>
+                        </span>
+                    </div>
+                </f:if>
+            </f:else>
+
+        </f:if>
+
+
+        <div class="entry-content">
+            <div class="entry-meta mb5">
+                <span class="news-list-date">
+    				<f:format.date format="{f:translate(key:'dateFormat')}">{newsItem.datetime}</f:format.date>
+			    </span>
+            </div>
+            <h4 class="entry-title">
+                <n:link newsItem="{newsItem}" settings="{settings}" title="{newsItem.title}">
+                    {newsItem.title}
+                </n:link>
+            </h4>
+
+            <n:removeMediaTags>
+                <div class="entry-body">{newsItem.bodytext -> f:format.crop(maxCharacters: '{settings.cropMaxCharacters}', respectWordBoundaries:'1') -> f:format.html()}</div>
+            </n:removeMediaTags>
+
+            <div class="text-right">
+                <n:link class="btn-link btn" newsItem="{newsItem}" settings="{settings}" title="{newsItem.title}">
+                    <f:translate key="more-link"/>
+                </n:link>
+            </div>
+        </div>
+    </div>
+
+</div><!--/.col-->
+
+</html>

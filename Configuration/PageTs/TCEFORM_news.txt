@@ -18,7 +18,7 @@ TCEFORM {
 
 		### Hide Flexform Fields
 
-		teaser.disabled = 0
+		teaser.disabled = 1
 
 		bodytext.disabled = 0
 
@@ -44,9 +44,13 @@ TCEFORM {
 
 		related_links.disabled = 1
 
-		sys_language_uid.disabled = 0
+		sys_language_uid.disabled = 1
+
+		categories.disabled = 1
 
 		notes.disabled = 1
+
+		content_elements.disabled = 1
 	}
 
 }

@@ -1,0 +1,16 @@
+<f:switch expression="{data.flexform_parallax}">
+
+    <f:case value="bg-parallax">
+        <div id="c{data.uid}" class="gridelement gridSection bg-parallax text-center {f:if(condition: data.flexform_fullscreen, then: 'fullscreen')} {f:if(condition: data.flexform_parallaxoverlay, then: 'parallax-overlay')}"
+             data-jarallax="{'speed': 0.2}" style="background-image:url({f:uri.image(src:'{data.flexform_backgroundparallax}',treatIdAsReference:'1')})">
+            <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
+        </div>
+    </f:case>
+
+    <f:defaultCase>
+        <div id="c{data.uid}" class="gridelement gridSection">
+            <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
+        </div>
+    </f:defaultCase>
+
+</f:switch>

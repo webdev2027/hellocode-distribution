@@ -4,8 +4,8 @@
 //   *
 //   *
 //   * url			hellotypo3.de
-//   * client         hellotypo3
-//   * date           18-08-10
+//   * client       hellotypo3
+//   * date         19-03-07
 //   *
 //   * author         ssa :: hello@hellotypo3.de
 //   *
@@ -13,26 +13,21 @@
 config {
 
 	headerComment (
-		INTERPAGE
+		hellocode.de
 	)
 
-	// doc type
+	// doc type, not necessary anymore
 	doctype = html5
 
-	// disable cache - only for development!
+	// disable cache - `1` only for development!
 	no_cache = 0
 
     // Cache-Header erzeugen
     sendCacheHeaders = 1
 
-
-    // cache
-    // 8 hours 28800
-    // 1 day 86400
-    // 1 week  604800
-    // 4 weeks 2419200
+    // Cache : 1 week  604800
     cache_period = 604800
-    cache_clearAtMidnight = 0
+    cache_clearAtMidnight = 1
 
 	// https://securityheaders.com & http://bit.ly/2NuMTn9
     additionalHeaders {
@@ -43,30 +38,22 @@ config {
         50.header = Referrer-Policy:strict-origin
     }
 
-	// admin panel
-	admPanel = 0
-	contentObjectExceptionHandler = 0
-
 	// email
-	spamProtectEmailAddresses = 1
-	// spamProtectEmailAddresses_atSubst = &nbsp;[at]&nbsp;
+	spamProtectEmailAddresses = -2
+	spamProtectEmailAddresses_atSubst = &nbsp;/at/&nbsp;
+	#spamProtectEmailAddresses_lastDotSubst = _
 
 	// comments & includes deactivate
 	disablePrefixComment = 1
 	inlineStyle2TempFile = 1
 	removeDefaultJS = external
+	moveJsFromHeaderToFooter = 1
 
 
 	// baseURL
-	//  NO baseURL is set
-	// baseURL = {$baseURL} // see language.ts
+	// NO baseURL is set
 	prefixLocalAnchors = all
 	absRefPrefix = auto
-
-
-	// REALURL
-	simulateStaticDocuments = 0
-	tx_realurl_enable = 1
 
 	// Allow Crosslinking between Multidomains
 	// typolinkCheckRootline = 1
@@ -76,13 +63,10 @@ config {
 	meaningfulTempFilePrefix = 50
 
 	// MERGE / CONCATENATE
-	concatenateJs = 1
-	concatenateCss = 1
+	concatenateJs = 0
+	concatenateCss = 0
 
 	// COMPRESS
-	compressJs = 1
-	compressCss = 1
-
-	// remove typo3 title
-	// noPageTitle = 1 // was 2
+	compressJs = 0
+	compressCss = 0
 }

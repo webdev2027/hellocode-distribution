@@ -1,0 +1,31 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+
+<f:if condition="{item.children}">
+    <f:then>
+        <a href="{item.link}" class="nav-link dropdown-toggle" data-toggle="dropdown"
+           aria-haspopup="true" aria-expanded="false" target="{item.data.target}" title="{item.data.title}">
+    </f:then>
+    <f:else>
+        <a href="{item.link}" class="nav-link dropdown-toggle dropdown-toggle-hide" target="{item.data.target}" title="{item.data.title}">
+    </f:else>
+</f:if>
+{item.title}
+</a>
+
+<f:comment><!--
+<f:if condition="{item.data.target}">
+    <f:then>
+        <a href="{item.link}" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" target="{item.data.target}" title="{item.data.title}">
+    </f:then>
+    <f:else if="{item.target}">
+        <a href="{item.link}" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" target="{item.target}" title="{item.data.title}">
+    </f:else>
+    <f:else>
+        <a href="{item.link}" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="{item.data.title}">
+    </f:else>
+</f:if>
+{item.title}
+</a>
+--></f:comment>
+</html>

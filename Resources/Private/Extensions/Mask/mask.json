@@ -1,0 +1,171 @@
+{
+    "tt_content": {
+        "elements": {
+            "iconteaser": {
+                "color": "#009ddf",
+                "columns": [
+                    "header",
+                    "tx_mask_mask_iconteaser_text",
+                    "tx_mask_mask_iconteaser_selecticon"
+                ],
+                "description": "Textelement mit Icon",
+                "icon": "fa-file-text",
+                "key": "iconteaser",
+                "label": "Icon Teaser",
+                "labels": [
+                    "",
+                    "Text",
+                    "Icon"
+                ],
+                "shortLabel": "Text mit Icon"
+            }
+        },
+        "sql": {
+            "tx_mask_mask_iconteaser_selecticon": {
+                "tt_content": {
+                    "tx_mask_mask_iconteaser_selecticon": "tinytext"
+                }
+            },
+            "tx_mask_mask_iconteaser_text": {
+                "tt_content": {
+                    "tx_mask_mask_iconteaser_text": "mediumtext"
+                }
+            }
+        },
+        "tca": {
+            "tx_mask_mask_iconteaser_selecticon": {
+                "config": {
+                    "autoSizeMax": "",
+                    "fileFolder": "",
+                    "fileFolder_extList": "",
+                    "fileFolder_recursions": "",
+                    "foreign_table": "",
+                    "foreign_table_where": "",
+                    "items": [
+                        [
+                            "bargraph",
+                            "icon-bargraph"
+                        ],
+                        [
+                            "briefcase",
+                            "icon-briefcase"
+                        ],
+                        [
+                            "book-open",
+                            "icon-book-open"
+                        ],
+                        [
+                            "camera",
+                            "icon-camera"
+                        ],
+                        [
+                            "chat",
+                            "icon-chat"
+                        ],
+                        [
+                            "desktop",
+                            "icon-desktop"
+                        ],
+                        [
+                            "dial",
+                            "icon-dial"
+                        ],
+                        [
+                            "documents",
+                            "icon-documents"
+                        ],
+                        [
+                            "focus",
+                            "icon-focus"
+                        ],
+                        [
+                            "gears",
+                            "icon-gears"
+                        ],
+                        [
+                            "grid",
+                            "icon-grid"
+                        ],
+                        [
+                            "hourglass",
+                            "icon-hourglass"
+                        ],
+                        [
+                            "map",
+                            "icon-map"
+                        ],
+                        [
+                            "mobile",
+                            "icon-mobile"
+                        ],
+                        [
+                            "presentation",
+                            "icon-presentation"
+                        ],
+                        [
+                            "picture",
+                            "icon-picture"
+                        ],
+                        [
+                            "piechart",
+                            "icon-piechart"
+                        ],
+                        [
+                            "profile-maleicon-profile-male"
+                        ],
+                        [
+                            "puzzle",
+                            "icon-puzzle"
+                        ],
+                        [
+                            "quote",
+                            "icon-quote"
+                        ],
+                        [
+                            "strategy",
+                            "icon-strategy"
+                        ],
+                        [
+                            "target",
+                            "icon-target"
+                        ],
+                        [
+                            "tools",
+                            "icon-tools"
+                        ],
+                        [
+                            "tools-2",
+                            "icon-tools-2"
+                        ],
+                        [
+                            "video",
+                            "icon-video"
+                        ]
+                    ],
+                    "maxitems": "1",
+                    "renderType": "selectSingle",
+                    "size": "1",
+                    "type": "select"
+                },
+                "exclude": "1",
+                "key": "mask_iconteaser_selecticon",
+                "l10n_mode": ""
+            },
+            "tx_mask_mask_iconteaser_text": {
+                "config": {
+                    "cols": "",
+                    "default": "",
+                    "eval": "required",
+                    "format": "",
+                    "max": "",
+                    "placeholder": "",
+                    "rows": "",
+                    "type": "text"
+                },
+                "exclude": "1",
+                "key": "mask_iconteaser_text",
+                "l10n_mode": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,131 @@
+### https://www.thomaskieslich.de/blog/127-typo3-8x-ckeditor-konfigurieren/
+### https://www.thomaskieslich.de/blog/135-links-im-ckeditor-mit-eigenen-css-klassen/
+### https://www.clickstorm.de/blog/der-neue-typo3-rte-ckeditor/
+### https://usetypo3.com/ckeditor.html
+
+# Load default processing options
+imports:
+  - { resource: "EXT:rte_ckeditor/Configuration/RTE/Processing.yaml" }
+  - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Base.yaml" }
+  - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Plugins.yaml" }
+
+# Add configuration for the editor
+# For complete documentation see http://docs.ckeditor.com/#!/api/CKEDITOR.config
+editor:
+  config:
+
+    contentsCss: ["EXT:rte_ckeditor/Resources/Public/Css/contents.css", "EXT:hellotypo3/Resources/Public/css/ckeditor.css"]
+
+    toolbarGroups:
+      - { name: styles, groups: [ styles, format ] }
+      - { name: basicstyles, groups: [ basicstyles ] }
+      - { name: paragraph, groups: [ list, align ] }
+      #- { name: paragraph, groups: [ list, indent, blocks, align ] }
+      - { name: links, groups: [ links ] }
+      #- "/"
+      - { name: clipboard, groups: [ clipboard, cleanup, undo ] }
+      #- { name: editing, groups: [ spellchecker ] }
+      #- { name: insert, groups: [ insert ] }
+      #- { name: tools, groups: [ table, specialchar, insertcharacters ] }
+      - { name: document, groups: [ mode ] }
+
+    justifyClasses:
+      - text-left
+      - text-center
+      - text-right
+      - text-justify
+
+    extraPlugins:
+      - justify
+      - autolink
+
+    removePlugins:
+      - image
+
+    removeButtons:
+      #- Styles
+      - Anchor
+      - Underline
+      - Strike
+      - Outdent
+      - Indent
+      - JustifyBlock
+
+    ### Paragraphs
+    format_tags: "p;h3"
+
+    ### Styles
+    stylesSet:
+      # block level styles
+      #- { name: "Absatz blau", element: "p", attributes: { 'class': 'important' } }
+      #- { name: "align-center", element: ['h1', 'h2', 'h3', 'h4','h5', 'h6', 'p', 'td', 'th'], attributes: { 'class': 'align-center' }}
+      #- { name: "align-right", element: ['h1', 'h2', 'h3', 'h4','h5', 'h6', 'p', 'td', 'th'], attributes: { 'class': 'align-right' }}
+      #- { name: "align-justify", element: ['h1', 'h2', 'h3', 'h4','h5', 'h6', 'p', 'td', 'th'], attributes: { 'class': 'align-justify' }}
+      - { name: "Tiny Paragraph", element: "p", attributes: { 'class': 'p-tiny' }}
+
+      # inline styles
+      #- { name: "Wort(e) blau", element: "span", attributes: { class: "important"} }
+      #- { name: "Schrift grün", element: "span", attributes: { class: "highlighted green"} }
+      #- { name: "Schrift blau", element: "span", attributes: { class: "highlighted blue"} }
+
+      # List styles
+      #- { name: 'UL Style 1', element: 'ul', attributes: { 'class': 'ul-style1' } }
+      #- { name: 'UL Style 2', element: 'ol', attributes: { 'class': 'ul-style2' } }
+      #- { name: 'No UL Bullets', element: 'ul', attributes: { 'class': 'no-bullet' } }
+
+      # Link styles
+      - { name: 'Button Primary Color', element: 'a', attributes: { class: 'button primary' } }
+      - { name: 'Button Warning Color', element: 'a', attributes: { class: 'button warning' } }
+      - { name: 'Button Hollow', element: 'a', attributes: { class: 'button hollow' } }
+
+
+
+buttons:
+  link:
+    page:
+      properties:
+        class:
+          default: 'link-page'
+    file:
+      properties:
+        class:
+          default: 'link-file'
+    url:
+      properties:
+        class:
+          default: 'link-url'
+    mail:
+      properties:
+        class:
+          default: 'link-mail'
+    properties:
+      class:
+        allowedClasses: 'link-page, link-file, link-url, link-mail, btn btn-lg btn-primary'
+
+classes:
+  link-page:
+    name: 'Internal Link'
+  link-file:
+    name: 'Document Link'
+  link-url:
+    name: 'External Link'
+  link-mail:
+    name: 'Mail Link'
+  btn btn-lg btn-primary:
+    name: 'Button Primary'
+
+
+classesAnchor:
+  externalLink:
+    class: 'link-url'
+    type: 'url'
+    target: '_blank'
+  internalLink:
+    class: 'link-page'
+    type: 'page'
+  fileLink:
+    class: 'link-file'
+    type: 'file'
+  mailLink:
+    class: 'link-mail'
+    type: 'mail'
