@@ -1,5 +1,5 @@
 {
-    "name": "stsa/hellotypo3",
+    "name": "hellocode/hellotypo3",
     "type": "typo3-cms-extension",
     "description": "FLUID Templates & TypoScript",
     "homepage": "https://www.hellotypo3.de/",
@@ -21,6 +21,11 @@
     ],
     "require": {
         "typo3/cms-core": "^9.5"
+    },
+    "config": {
+      "platform": {
+        "php": "7.2"
+      }
     },
     "autoload": {
         "psr-4": {
