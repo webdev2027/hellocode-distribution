@@ -9,7 +9,7 @@
         showPageIdWithTitle = 1
     
         backgroundColor {
-          2 = rgba(63, 165, 53, 0.5)
+          #2 = rgba(63, 165, 53, 0.5)
         }
       }
     
@@ -34,9 +34,6 @@
     '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:' . $_EXTKEY . '/Configuration/PageTs/Mod/web_layout.txt">'
 );
 
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig(
-    '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:' . $_EXTKEY . '/Configuration/PageTs/Mod/modifications.txt">'
-);
 
 // ckEditor RTE
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig(
