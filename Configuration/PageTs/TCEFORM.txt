@@ -1,4 +1,17 @@
 TCEFORM {
+
+    pages {
+        layout {
+            altLabels {
+                0 =  LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.felayout.0
+                1 =  LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:tceform.felayout.1
+                2 =  [ green ]
+                3 =  [ yellow ]
+            }
+            removeItems = 2,3
+        }
+    }
+
 	tt_content {
 
 		layout {

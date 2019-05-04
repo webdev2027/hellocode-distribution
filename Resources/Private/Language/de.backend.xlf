@@ -287,6 +287,15 @@
 
 
 
+			<trans-unit id="tceform.felayout.0">
+				<target>Primary Color [ blau ]</target>
+			</trans-unit>
+			<trans-unit id="tceform.felayout.1">
+				<target>Secondary Color [ rot ]</target>
+			</trans-unit>
+
+
+
             <trans-unit id="tceform.layout.0">
 				<target>Standard</target>
 			</trans-unit>

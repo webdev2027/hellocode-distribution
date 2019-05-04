@@ -326,6 +326,15 @@
 
 
 
+			<trans-unit id="tceform.felayout.0">
+				<source>Primary Color</source>
+			</trans-unit>
+			<trans-unit id="tceform.felayout.1">
+				<source>Secondary Color</source>
+			</trans-unit>
+
+
+
             <trans-unit id="tceform.layout.0">
 				<source>Standard</source>
 			</trans-unit>
