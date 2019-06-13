@@ -60,8 +60,8 @@ path {
 extensionsRoot          = EXT:hellotypo3/Resources/Private/Extensions/
 
 
-### publicPathExt
-publicPathExt           = EXT:hellotypo3/Resources/Public/
+### publicPath
+publicPath              = EXT:hellotypo3/Resources/Public/
 
 
 ### publicPath StyleSheets
@@ -82,13 +82,10 @@ publicPathFonts         = EXT:hellotypo3/Resources/Public/fonts/
 ### edit constants via backend
 
 # cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.siteName
-siteName = PBC 2019
+siteName =
 
 # cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:defaultDescription
 #defaultDescription =
 
 # cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.navCopyright
-navCopyright = 2
-
-# cat=hellotypo3/settings; type=string; label=LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:constants.navSocial
-navSocial = 9
+navFooter = 2

@@ -14,9 +14,6 @@
 			<trans-unit id="constants.navFooter">
 				<source>Folder footer menu</source>
 			</trans-unit>
-			<trans-unit id="constants.navSocial">
-				<source>Folder social menu</source>
-			</trans-unit>
 
 
             <!-- ########## BACKEND LAYOUTS ########## -->

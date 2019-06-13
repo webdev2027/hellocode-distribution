@@ -14,9 +14,6 @@
 			<trans-unit id="constants.navFooter">
 				<target><![CDATA[Ordner für die Fußzeile]]></target>
 			</trans-unit>
-			<trans-unit id="constants.navSocial">
-				<target><![CDATA[Ordner für die Social Links]]></target>
-			</trans-unit>
 
 
 
