@@ -35,15 +35,15 @@ tx_gridelements {
       } // gridelement GridSection
 
 
-      GridContainer {
+      GridOneColumn {
 
-        title = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainer.title
-        description = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainer.description
+        title = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridOneColumn.title
+        description = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridOneColumn.description
 
         #icon = EXT:example_extension/Resources/Public/Images/BackendLayouts/default.gif
         frame = 1
 
-        flexformDS = FILE:EXT:hellotypo3/Configuration/FlexForms/Gridelements/GridContainer.xml
+        flexformDS = FILE:EXT:hellotypo3/Configuration/FlexForms/Gridelements/GridOneColumn.xml
 
         config {
 
@@ -53,7 +53,7 @@ tx_gridelements {
               1 {
                 columns {
                   1 {
-                    name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainer.Column
+                    name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridOneColumn.Column
                     colPos = 1001
                   }
                 }
@@ -62,7 +62,7 @@ tx_gridelements {
 
         }
 
-      } // gridelement GridContainer
+      } // gridelement GridOneColumn
 
 
 

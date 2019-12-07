@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+    <meta type="array">
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <general>
+            <ROOT type="array">
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridOneColumn.flexforms.title</sheetTitle>
+                </TCEforms>
+                <el type="array">
+
+                    <paddingtop type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridOneColumn.flexforms.paddingtop</label>
+                            <config type="array">
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">0</numIndex>
+                                        <numIndex index="1">pt0</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">20</numIndex>
+                                        <numIndex index="1">pt20</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">40</numIndex>
+                                        <numIndex index="1">pt40</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">60</numIndex>
+                                        <numIndex index="1">pt60</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">80</numIndex>
+                                        <numIndex index="1">pt80</numIndex>
+                                    </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <numIndex index="0">100</numIndex>
+                                        <numIndex index="1">pt100</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </paddingtop>
+
+                    <paddingbottom type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridOneColumn.flexforms.paddingbottom</label>
+                            <config type="array">
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">0</numIndex>
+                                        <numIndex index="1">pb0</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">20</numIndex>
+                                        <numIndex index="1">pb20</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">40</numIndex>
+                                        <numIndex index="1">pb40</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">60</numIndex>
+                                        <numIndex index="1">pb60</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">80</numIndex>
+                                        <numIndex index="1">pb80</numIndex>
+                                    </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <numIndex index="0">100</numIndex>
+                                        <numIndex index="1">pb100</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </paddingbottom>
+
+                    <colunwidth type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridOneColumn.flexforms.colunwidth</label>
+                            <config type="array">
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">100% [ 12 ]</numIndex>
+                                        <numIndex index="1">medium-12</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">80% [ 10 ]</numIndex>
+                                        <numIndex index="1">medium-10</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">70% [ 8 ]</numIndex>
+                                        <numIndex index="1">medium-8</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">50% [ 6 ]</numIndex>
+                                        <numIndex index="1">medium-6</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">30% [ 4 ]</numIndex>
+                                        <numIndex index="1">medium-4</numIndex>
+                                    </numIndex>
+
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </colunwidth>
+
+                    <columnalignment>
+                        <TCEforms>
+                            <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridOneColumn.flexforms.checkboxalign</label>
+                            <config>
+                                <type>check</type>
+                                <default>0</default>
+                            </config>
+                        </TCEforms>
+                    </columnalignment>
+<!--
+
+
+                    <alignment type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainer.flexforms.alignment</label>
+                            <config type="array">
+                                <type>select</type>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">Alignment Center</numIndex>
+                                        <numIndex index="1">text-center</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">Alignment Left</numIndex>
+                                        <numIndex index="1">text-left</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </alignment>
+
+
+                    <backgroundimage type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridContainer.flexforms.backgroundimage</label>
+                            <config type="array">
+                                <type>inline</type>
+                                <maxitems>1</maxitems>
+                                <foreign_table>sys_file_reference</foreign_table>
+                                <foreign_table_field>tablenames</foreign_table_field>
+                                <foreign_label>uid_local</foreign_label>
+                                <foreign_sortby>sorting_foreign</foreign_sortby>
+                                <foreign_selector>uid_local</foreign_selector>
+                                <foreign_selector_fieldTcaOverride type="array">
+                                    <config>
+                                        <appearance>
+                                            <elementBrowserType>file</elementBrowserType>
+                                            <elementBrowserAllowed>jpg,png</elementBrowserAllowed>
+                                        </appearance>
+                                    </config>
+                                </foreign_selector_fieldTcaOverride>
+                                <foreign_match_fields type="array">
+                                    <fieldname>image</fieldname>
+                                </foreign_match_fields>
+                                <appearance type="array">
+                                    <newRecordLinkAddTitle>1</newRecordLinkAddTitle>
+                                    <headerThumbnail>
+                                        <field>uid_local</field>
+                                        <height>64</height>
+                                        <width>64</width>
+                                    </headerThumbnail>
+                                </appearance>
+                            </config>
+                        </TCEforms>
+                    </backgroundimage>
+-->
+                </el>
+            </ROOT>
+        </general>
+    </sheets>
+</T3DataStructure>

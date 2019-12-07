@@ -1,0 +1,9 @@
+<div id="c{data.uid}"  class="grid-element grid-container grid-one-col">
+    <div class="grid-x grid-margin-x {f:if(condition: data.flexform_columnalignment, then: 'align-center')}
+    {f:if(condition: data.flexform_paddingtop, then: '{data.flexform_paddingtop}')} {f:if(condition: data.flexform_paddingbottom, then: '{data.flexform_paddingbottom}')}">
+        <div class="cell {f:if(condition: data.flexform_colunwidth, then: '{data.flexform_colunwidth}')}">
+            <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
+        </div>
+    </div>
+</div>
+

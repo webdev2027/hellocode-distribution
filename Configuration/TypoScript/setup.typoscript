@@ -1,9 +1,9 @@
 ### fluid styled content & styles
-### IS NOT WORKING ?? <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript">
-### IS NOT WORKING ?? <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/Styling/setup.typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/Styling/setup.typoscript">
 
 ### setup / basic_page, config, include, ...
-<INCLUDE_TYPOSCRIPT: source="DIR:./Setup" extensions="ts">
+<INCLUDE_TYPOSCRIPT: source="DIR:./Setup" extensions="typoscript">
 
 ### Libs / main Navigation ..
-<INCLUDE_TYPOSCRIPT: source="DIR:./Library" extensions="ts">
+<INCLUDE_TYPOSCRIPT: source="DIR:./Library" extensions="typoscript">

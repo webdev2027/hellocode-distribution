@@ -7,38 +7,56 @@ mod.web_layout.BackendLayouts {
 
     config {
       backend_layout {
-        colCount = 3
-        rowCount = 2
+        colCount = 1
+        rowCount = 4
         rows {
 
           1 {
             columns {
               1 {
                 name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:backend_layout.default.101
-                colspan = 3
                 colPos = 101
+                allowed {
+                    CType = mask_imageslider
+                }
+              }
+            }
+          }
+
+          2 {
+            columns {
+              1 {
+                name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:backend_layout.default.102
+                colPos = 102
+                allowed {
+                    CType = header
+                }
+              }
+            }
+          }
+
+          3 {
+            columns {
+              1 {
+                name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:backend_layout.default.103
+                #colspan = 2
+                colPos = 103
                 allowed {
                     CType = gridelements_pi1
                 }
               }
             }
           }
-          2 {
-              columns {
-                1 {
-                  name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:backend_layout.default.footer1
-                  colPos = 201
-                }
-                2 {
-                  name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:backend_layout.default.footer2
-                  colPos = 202
-                }
-                3 {
-                  name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:backend_layout.default.footer3
-                  colPos = 203
-                }
+
+          4 {
+            columns {
+              1 {
+                name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:backend_layout.default.104
+                colPos = 104
               }
+            }
           }
+
         }
       }
     }
@@ -46,7 +64,7 @@ mod.web_layout.BackendLayouts {
   } // 1
 
 
-
+/*
   2 {
 
     title = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:backend_layout.subpage.title
@@ -55,14 +73,14 @@ mod.web_layout.BackendLayouts {
     config {
       backend_layout {
         colCount = 1
-        rowCount = 1
+        rowCount = 2
         rows {
 
           1 {
             columns {
               1 {
-                name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:backend_layout.subpage.101
-                colPos = 101
+                name = LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:backend_layout.subpage.103
+                colPos = 103
                 allowed {
                     CType = gridelements_pi1
                 }
@@ -74,5 +92,5 @@ mod.web_layout.BackendLayouts {
     }
 
   } // 2
-
-} // mod
+*/
+} // mod.web_layout.BackendLayouts

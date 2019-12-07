@@ -1,17 +1,18 @@
 <f:switch expression="{data.flexform_columns}">
 
     <f:defaultCase>
-        <div id="c{data.uid}" class="gridelement row">
-            <div class="col-md-3">
+        <div id="c{data.uid}" class="grid-element {f:if(condition: data.flexform_nogridcontainer, then: ' ', else: 'grid-container')} grid-four-col grid-x
+{f:if(condition: data.flexform_nomargin, then: ' ', else: 'grid-margin-x')}">
+            <div class="medium-6 large-3 cell">
                 <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
             </div>
-            <div class="col-md-3">
+            <div class="medium-6 large-3 cell">
                 <f:format.raw>{data.tx_gridelements_view_columns.1002}</f:format.raw>
             </div>
-            <div class="col-md-3">
+            <div class="medium-6 large-3 cell">
                 <f:format.raw>{data.tx_gridelements_view_columns.1003}</f:format.raw>
             </div>
-            <div class="col-md-3">
+            <div class="medium-6 large-3 cell">
                 <f:format.raw>{data.tx_gridelements_view_columns.1004}</f:format.raw>
             </div>
         </div>

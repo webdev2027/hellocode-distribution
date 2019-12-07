@@ -10,6 +10,27 @@
                     <sheetTitle>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridThreeColumns.flexforms.title</sheetTitle>
                 </TCEforms>
                 <el type="array">
+
+                    <nogridcontainer>
+                        <TCEforms>
+                            <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridThreeColumns.flexforms.nogridcontainer</label>
+                            <config>
+                                <type>check</type>
+                                <default>1</default>
+                            </config>
+                        </TCEforms>
+                    </nogridcontainer>
+
+                    <nomargin>
+                        <TCEforms>
+                            <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridThreeColumns.flexforms.nomargin</label>
+                            <config>
+                                <type>check</type>
+                                <default>0</default>
+                            </config>
+                        </TCEforms>
+                    </nomargin>
+
                     <columns type="array">
                         <TCEforms type="array">
                             <label>LLL:EXT:hellotypo3/Resources/Private/Language/backend.xlf:gridelements.GridThreeColumns.flexforms.label</label>
@@ -28,6 +49,7 @@
                             </config>
                         </TCEforms>
                     </columns>
+
                 </el>
             </ROOT>
         </general>

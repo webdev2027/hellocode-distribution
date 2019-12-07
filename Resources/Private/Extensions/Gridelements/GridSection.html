@@ -1,14 +1,26 @@
 <f:switch expression="{data.flexform_parallax}">
 
-    <f:case value="bg-parallax">
-        <div id="c{data.uid}" class="gridelement gridSection bg-parallax text-center {f:if(condition: data.flexform_fullscreen, then: 'fullscreen')} {f:if(condition: data.flexform_parallaxoverlay, then: 'parallax-overlay')}"
-             data-jarallax="{'speed': 0.2}" style="background-image:url({f:uri.image(src:'{data.flexform_backgroundparallax}',treatIdAsReference:'1')})">
+    <f:case value="bg-primary">
+        <div id="c{data.uid}" class="grid-element grid-section grid-container bg-primary {f:if(condition: data.flexform_checkboxfull, then: 'full')}">
+            <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
+        </div>
+    </f:case>
+
+    <f:case value="bg-secondary">
+        <div id="c{data.uid}" class="grid-element grid-section grid-container bg-secondary {f:if(condition: data.flexform_checkboxfull, then: 'full')}">
+            <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
+        </div>
+    </f:case>
+
+    <f:case value="bg-transparent">
+        <div id="c{data.uid}" class="grid-element grid-section grid-container bg-transparent {f:if(condition: data.flexform_checkboxfull, then: 'full')}">
             <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
         </div>
     </f:case>
 
     <f:defaultCase>
-        <div id="c{data.uid}" class="gridelement gridSection">
+        <div id="c{data.uid}" class="grid-element grid-section grid-container parallax {f:if(condition: data.flexform_checkboxfull, then: 'full')}"
+             style="background-image:url({f:uri.image(src:'{data.flexform_backgroundparallax}',treatIdAsReference:'1')})">
             <f:format.raw>{data.tx_gridelements_view_columns.1001}</f:format.raw>
         </div>
     </f:defaultCase>

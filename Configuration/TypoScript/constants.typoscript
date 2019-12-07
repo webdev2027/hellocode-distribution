@@ -1,5 +1,5 @@
 ### fluid styled content
-### IS NOT WORKING ?? <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/constants.typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/constants.typoscript">
 
 ### typoscript main template constants
 styles.content {
@@ -59,10 +59,8 @@ path {
 ### third party extension path
 extensionsRoot          = EXT:hellotypo3/Resources/Private/Extensions/
 
-
 ### publicPath
 publicPath              = EXT:hellotypo3/Resources/Public/
-
 
 ### publicPath StyleSheets
 publicPathStyleSheets   = EXT:hellotypo3/Resources/Public/css/
