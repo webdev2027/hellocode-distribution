@@ -9,7 +9,8 @@
         showPageIdWithTitle = 1
     
         backgroundColor {
-          #2 = rgba(63, 165, 53, 0.5)
+          11 = rgba(63, 165, 53, 0.5)
+          26 = rgba(63, 165, 53, 0.5)
         }
       }
     
